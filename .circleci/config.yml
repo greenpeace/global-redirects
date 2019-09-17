@@ -11,15 +11,15 @@ jobs:
     steps:
       - checkout
       - run: mkdir /tmp/artifacts
-      - run: make lint
+      - run: make ingress lint | tee /tmp/artifacts/job.log
       - store_artifacts:
           path: /tmp/artifacts
       - run:
           name: Notify failure
           when: on_fail
           command: |
-            TYPE="Test" \
-            EXTRA_TEXT="\`\`\`$(cat /tmp/lint.log)\`\`\`" \
+            TYPE="Lint" \
+            EXTRA_TEXT="\`\`\`$(cat /tmp/job.log)\`\`\`" \
             notify-job-failure.sh
 
   deploy:
@@ -28,7 +28,7 @@ jobs:
       - checkout
       - run: mkdir /tmp/artifacts
       - run: activate-gcloud-account.sh
-      - run: make
+      - run: make | tee /tmp/artifacts/job.log
       - run: cp -R ingress /tmp/artifacts
       - store_artifacts:
           path: /tmp/artifacts
@@ -37,7 +37,7 @@ jobs:
           when: on_fail
           command: |
             TYPE="Test" \
-            EXTRA_TEXT="\`\`\`$(cat /tmp/lint.log)\`\`\`" \
+            EXTRA_TEXT="\`\`\`$(cat /tmp/artifacts/job.log)\`\`\`" \
             notify-job-failure.sh
 
 workflows:
