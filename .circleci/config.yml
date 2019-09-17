@@ -1,0 +1,55 @@
+---
+defaults: &defaults
+  docker:
+    - image: greenpeaceinternational/circleci-base:latest
+
+version: 2
+
+jobs:
+  lint:
+    <<: *defaults
+    steps:
+      - checkout
+      - run: mkdir /tmp/artifacts
+      - run: make ingress lint | tee /tmp/artifacts/job.log
+      - store_artifacts:
+          path: /tmp/artifacts
+      - run:
+          name: Notify failure
+          when: on_fail
+          command: |
+            TYPE="Lint" \
+            EXTRA_TEXT="\`\`\`$(cat /tmp/job.log)\`\`\`" \
+            notify-job-failure.sh
+
+  deploy:
+    <<: *defaults
+    steps:
+      - checkout
+      - run: mkdir /tmp/artifacts
+      - run: activate-gcloud-account.sh
+      - run: make | tee /tmp/artifacts/job.log
+      - run: cp -R ingress /tmp/artifacts
+      - store_artifacts:
+          path: /tmp/artifacts
+      - run:
+          name: Notify failure
+          when: on_fail
+          command: |
+            TYPE="Test" \
+            EXTRA_TEXT="\`\`\`$(cat /tmp/artifacts/job.log)\`\`\`" \
+            notify-job-failure.sh
+
+workflows:
+  version: 2
+  commit:
+    jobs:
+      - lint
+      - deploy:
+          context: org-global
+          requires:
+            - lint
+          filters:
+            branches:
+              only:
+                - master

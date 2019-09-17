@@ -1,0 +1,40 @@
+{
+  "sites": [
+    {
+      "name": "testing",
+      "created": 1568700913,
+      "description": "Testing redirects",
+      "owners": [
+        {
+          "name": "Raymond Walker",
+          "email": "rawalker@greenpeace.org",
+          "unit": "Global IT Operations"
+        },
+        {
+          "email": "raymond.walker@greenpeace.org"
+        }
+      ],
+      "from": "flibble.p4.greenpeace.org",
+      "to": "www.greenpeace.org/flibble"
+    },
+    {
+      "name": "minimal",
+      "from": "things.p4.greenpeace.org",
+      "to": "stuff.p4.greenpeace.org"
+    },
+    {
+      "name": "Moon => Storytelling",
+      "created": 1568700913,
+      "description": "Redirect for moon.greenpeace.org to storytelling.greenpeace.org",
+      "owners": [
+        {
+          "name": "Raymond Walker",
+          "email": "ray.walker@greenpeace.org",
+          "unit": "Global IT Operations"
+        }
+      ],
+      "from": "moon.greenpeace.org",
+      "to": "storytelling.greenpeace.org"
+    }
+  ]
+}

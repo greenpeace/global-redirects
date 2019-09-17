@@ -1,0 +1,23 @@
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: traefik
+    p4.kubernetes.io/redirect-owners: {{ .Env.OWNERS }}
+    traefik.ingress.kubernetes.io/redirect-permanent: "true"
+    traefik.ingress.kubernetes.io/redirect-regex: "^https?://{{ .Env.FROM }}(.*)"
+    traefik.ingress.kubernetes.io/redirect-replacement: "https://{{ .Env.TO }}$1"
+  labels:
+    app: redirects
+  name: redirects-{{ .Env.NAME }}
+  namespace: {{ .Env.NAMESPACE }}
+spec:
+  rules:
+    - host: {{ .Env.FROM }}
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: p4-robots-static
+              servicePort: 80
