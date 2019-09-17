@@ -24,6 +24,8 @@ jobs:
 
   deploy:
     <<: *defaults
+    environment:
+      GOOGLE_PROJECT_ID: planet4-production
     steps:
       - checkout
       - run: mkdir /tmp/artifacts
