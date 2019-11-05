@@ -15,6 +15,9 @@ lint:
 	@find . -type f -name '*.yml' | xargs yamllint
 	@find . -type f -name '*.yaml' | xargs yamllint
 
+list:
+	kubectl -n $(NAMESPACE) get ingress -l app=redirects
+
 clean:
 	rm -fr ingress
 
