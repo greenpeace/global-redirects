@@ -19,7 +19,7 @@ do
   [[ -z "$NAME" ]] && {
     NAME=$FROM
   }
-  NAME=$(echo $NAME | sed 's/[^a-zA-Z0-9_-\ ]/-/g' | tr '.' '-' | tr '[:upper:]' '[:lower:]' | tr -s '-' | xargs)
+  NAME=$(echo $NAME | sed 's/[^a-zA-Z0-9_ -]/-/g' | tr '.' '-' | tr '[:upper:]' '[:lower:]' | tr -s '-' | xargs)
   DESCRIPTION=$(jq -r '.description | values | @sh' <<<"$json")
   [[ -z "$DESCRIPTION" ]] && {
     DESCRIPTION="Redirects $FROM to https://$TO"
