@@ -12,10 +12,18 @@ do
   json=$(jq ".sites[$i]" "$src")
   i=$(( i + 1 ))
 
-  NAME=$(jq -r '.name' <<<"$json" | sed 's/[^a-zA-Z0-9._-]/-/g' | tr '[:upper:]' '[:lower:]' | tr -s '-')
-  DESCRIPTION=$(jq -r '.description' <<<"$json")
   FROM=$(jq -r '.from' <<<"$json")
   TO=$(jq -r '.to' <<<"$json")
+
+  NAME=$(jq -r '.name | values | @sh' <<<"$json")
+  [[ -z "$NAME" ]] && {
+    NAME=$FROM
+  }
+  NAME=$(echo $NAME | sed 's/[^a-zA-Z0-9_-\ ]/-/g' | tr '.' '-' | tr '[:upper:]' '[:lower:]' | tr -s '-' | xargs)
+  DESCRIPTION=$(jq -r '.description | values | @sh' <<<"$json")
+  [[ -z "$DESCRIPTION" ]] && {
+    DESCRIPTION="Redirects $FROM to https://$TO"
+  }
 
   numowners=$(jq ".owners | length" <<<"$json")
   j=0
@@ -30,11 +38,11 @@ do
 
     j=$(( j + 1 ))
 
-    ownerName=$(jq -r '.name' <<<"$owner")
-    ownerEmail=$(jq -r '.email' <<<"$owner")
-    ownerUnit=$(jq -r '.unit' <<<"$owner")
+    ownerName=$(jq -r '.name | values' <<<"$owner")
+    ownerEmail=$(jq -r '.email | values' <<<"$owner")
+    ownerUnit=$(jq -r '.unit | values' <<<"$owner")
 
-    OWNERS+="$ownerName <$ownerEmail>"
+    OWNERS+="$ownerName $ownerUnit <$ownerEmail>"
   done
 
   OWNERS=$(echo "$OWNERS" | cut -c 1-63)
@@ -43,3 +51,5 @@ do
 
   dockerize -template "ingress.yaml.tmpl:ingress/ingress-$NAME.yaml"
 done
+
+echo
