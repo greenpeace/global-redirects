@@ -1,0 +1,38 @@
+{
+  "sites": [
+    {
+      "name": "foo-greenpeace-org",
+      "created": 1568700913,
+      "description": "Testing redirects",
+      "owners": [
+        {
+          "name": "Raymond Walker",
+          "email": "rawalker@greenpeace.org",
+          "unit": "Global IT Operations"
+        },
+        {
+          "email": "raymond.walker@greenpeace.org"
+        }
+      ],
+      "from": "foo.greenpeace.org",
+      "to": "www.greenpeace.org/bar"
+    },
+    {
+      "name": "minimal-example",
+      "from": "things.p4.greenpeace.org",
+      "to": "stuff.p4.greenpeace.org"
+    },
+    {
+      "name": "things-greenpeace-org",
+      "description": "Redirect for things.greenpeace.org to stuff.greenpeace.org",
+      "owners": [
+        {
+          "name": "Bartholomew Braithwaite",
+          "email": "bart@greenpeace.org"
+        }
+      ],
+      "from": "things.greenpeace.org",
+      "to": "stuff.greenpeace.org"
+    }
+  ]
+}

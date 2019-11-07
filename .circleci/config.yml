@@ -11,7 +11,8 @@ jobs:
     steps:
       - checkout
       - run: mkdir /tmp/artifacts
-      - run: make ingress lint | tee /tmp/artifacts/job.log
+      - run: make lint | tee /tmp/artifacts/job.log
+      - run: cp -R ingress /tmp/artifacts
       - store_artifacts:
           path: /tmp/artifacts
       - run:
@@ -24,6 +25,8 @@ jobs:
 
   deploy:
     <<: *defaults
+    environment:
+      GOOGLE_PROJECT_ID: planet4-production
     steps:
       - checkout
       - run: mkdir /tmp/artifacts
