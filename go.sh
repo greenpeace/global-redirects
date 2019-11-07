@@ -13,6 +13,7 @@ do
   i=$(( i + 1 ))
 
   NAME=$(jq -r '.name' <<<"$json" | sed 's/[^a-zA-Z0-9._-]/-/g' | tr '[:upper:]' '[:lower:]' | tr -s '-')
+  DESCRIPTION=$(jq -r '.description' <<<"$json")
   FROM=$(jq -r '.from' <<<"$json")
   TO=$(jq -r '.to' <<<"$json")
 

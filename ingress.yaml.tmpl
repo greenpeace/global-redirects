@@ -5,6 +5,7 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: traefik
     p4.kubernetes.io/redirect-owners: {{ .Env.OWNERS }}
+    p4.kubernetes.io/redirect-description: {{ .Env.DESCRIPTION }}
     traefik.ingress.kubernetes.io/redirect-permanent: "true"
     traefik.ingress.kubernetes.io/redirect-regex: "^https?://{{ .Env.FROM }}(.*)"
     traefik.ingress.kubernetes.io/redirect-replacement: "https://{{ .Env.TO }}$1"
