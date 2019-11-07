@@ -1,4 +1,3 @@
-
 {
   "sites": [
     {
@@ -19,6 +18,10 @@
     {
       "from": "www.greenpeace.ca",
       "to": "www.greenpeace.org/canada/en/"
+    },
+    {
+     "from": "moon.greenpeace.org",
+     "to": "storytelling.greenpeace.org"
     }
   ]
 }
