@@ -24,27 +24,29 @@ init: .git/hooks/pre-commit
 lint: init lint-json clean ingress lint-yaml
 
 lint-yaml:
-ifndef YAMLLINT
-	$(error "yamllint is not installed: https://github.com/adrienverge/yamllint")
-endif
+ifdef YAMLLINT
 	@find . -type f -name '*.yml' | xargs $(YAMLLINT)
 	@find . -type f -name '*.yaml' | xargs $(YAMLLINT)
+else
+	$(warning "WARNING :: yamllint is not installed: https://github.com/adrienverge/yamllint")
+endif
 
 lint-json:
-ifndef JQ
-	$(error "jq is not installed: https://stedolan.github.io/jq/")
-endif
+ifdef JQ
 	@find . -type f -name '*.json' | xargs $(JQ) .
+else
+	$(warning "WARNING :: jq is not installed: https://stedolan.github.io/jq/")
+endif
 
 list:
 	kubectl -n $(NAMESPACE) get ingress -l app=redirects
 
 clean:
-	rm -fr ingress
+	@rm -fr ingress
 
 ingress: lint
-	mkdir -p ingress
-	./go.sh
+	@mkdir -p ingress
+	@./go.sh
 
 connect:
 	gcloud config set project $(PROD_PROJECT)
