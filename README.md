@@ -19,17 +19,15 @@ Modify [sites.json](sites.json) to include *at least* the `from` and `to` fields
 }
 ```
 
-It's highly recommended to include ownership details for future accountability.
+Additional fields are optional, see [sites.example.json](sites.example.json) for possibilities. It's highly recommended to include ownership details for accountability and maintenance.
 
-Additional fields are optional, see [sites.example.json](sites.example.json) for possibilities.
+When entering URLS, ignore protocols as ingresses respond on both HTTP and HTTPS, but will only redirect to HTTPS targets by design.
 
-Ignore protocols, ingresses respond on both HTTP and HTTPS, but will only redirect to HTTPS targets by design.
+Once you've edited [sites.json](sites.json), run `make lint` to confirm syntax validity, then commit and push changes to the `develop` branch of this repository. Create a Pull Request from develop to master, and assign a reviewer to confirm sanity.
 
-Once you've edited [sites.json](sites.json), run `make lint` to confirm syntax validity, then commit and push changes to the `master` branch of this repository.
+Once the PR is approved and merged to master, CircleCI will then deploy changes automagically, view status here: [https://circleci.com/gh/greenpeace/global-redirects](https://circleci.com/gh/greenpeace/global-redirects)
 
-CircleCI will then deploy changes automagically, view status here: [https://circleci.com/gh/greenpeace/global-redirects](https://circleci.com/gh/greenpeace/global-redirects)
-
-Once successfully deployed, test redirection via local hostfile manipulate, then update production DNS records accordingly.
+Once successfully deployed, test redirection is successful via local hostfile manipulate, then update production DNS records accordingly.
 
 ```bash
 # Planet4 Production IP:

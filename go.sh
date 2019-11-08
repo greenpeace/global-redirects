@@ -2,54 +2,53 @@
 #shellcheck disable=SC2034
 set -eauo pipefail
 
-# @todo Pull JSON from API when complete
-src=sites.json
+main() {
+  # @todo Pull JSON from API when complete
+  local src=$1
+  local i=0
 
-numsites=$(jq ".sites | length" "$src")
-i=0
-while [ $i -lt "$numsites" ]
-do
-  json=$(jq ".sites[$i]" "$src")
-  i=$(( i + 1 ))
+  mkdir -p ingress
 
-  FROM=$(jq -r '.from' <<<"$json")
-  TO=$(jq -r '.to' <<<"$json")
+  for site in $(jq -rc '.sites' $src | jq -r '.[] | @base64'); do
+    _jq() {
+      echo ${site} | base64 --decode | jq -r ${1}
+    }
 
-  NAME=$(jq -r '.name | values | @sh' <<<"$json")
-  [[ -z "$NAME" ]] && {
-    NAME=$FROM
-  }
-  NAME=$(echo $NAME | sed 's/[^a-zA-Z0-9_ -]/-/g' | tr '.' '-' | tr '[:upper:]' '[:lower:]' | tr -s '-' | xargs)
-  DESCRIPTION=$(jq -r '.description | values | @sh' <<<"$json")
-  [[ -z "$DESCRIPTION" ]] && {
-    DESCRIPTION="Redirects $FROM to https://$TO"
-  }
+    i=$(( i + 1 ))
 
-  numowners=$(jq ".owners | length" <<<"$json")
-  j=0
-  OWNERS=""
+    FROM=$(_jq '.from')
+    TO=$(_jq '.to')
 
-  echo "$(printf "%03d" $i) - $NAME :: $FROM => $TO"
+    NAME=$(_jq '.name')
+    DESCRIPTION=$(_jq '.description')
 
-  while [ $j -lt "$numowners" ]
-  do
-    owner=$(jq ".owners[$j]" <<<"$json")
-    [ $j -gt 0 ] && OWNERS+=";"
+    [[ "$NAME" == "null" ]] && {
+      NAME=$FROM
+    }
+    NAME=$(echo $NAME | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9_ -]/-/g' | tr '.' '-' | tr -s '-' | xargs)
 
-    j=$(( j + 1 ))
+    [[ "$DESCRIPTION" == "null" ]]&& {
+      DESCRIPTION="Redirects $FROM to https://$TO"
+    }
 
-    ownerName=$(jq -r '.name | values' <<<"$owner")
-    ownerEmail=$(jq -r '.email | values' <<<"$owner")
-    ownerUnit=$(jq -r '.unit | values' <<<"$owner")
+    OWNERS=""
+    j=0
+    for owner in $(_jq '.owners' | jq -r 'values | .[] | @base64'); do
+      _owner() {
+        echo ${owner} | base64 --decode | jq -r "${1} | values"
+      }
+      [[ $j -gt 0 ]] && OWNERS+="; "
+      OWNERS+="$(_owner '.name') $(_owner '.unit') <$(_owner '.email')>"
+      j=$(( j + 1 ))
+    done
 
-    OWNERS+="$ownerName $ownerUnit <$ownerEmail>"
+    [[ -z "$OWNERS" ]] && OWNERS="${DEFAULT_OWNER:-}"
+
+    printf "$(printf "%03d" $i) - $NAME :: $(_jq '.from') => $(_jq '.to')"
+    printf " == %s\n" "$OWNERS"
+
+    dockerize -template "ingress.yaml.tmpl:ingress/ingress-$NAME.yaml"
   done
+}
 
-  OWNERS=$(echo "$OWNERS" | cut -c 1-63)
-
-  [ -z "$OWNERS" ] && OWNERS="$DEFAULT_OWNER"
-
-  dockerize -template "ingress.yaml.tmpl:ingress/ingress-$NAME.yaml"
-done
-
-echo
+main ${1:-sites.json}
