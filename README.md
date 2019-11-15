@@ -1,4 +1,6 @@
 # P4 Global Redirects
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgreenpeace%2Fglobal-redirects.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgreenpeace%2Fglobal-redirects?ref=badge_shield)
+
 
 Interim solution for providing SSL-enabled redirects from P4 infrastructure.
 
@@ -33,3 +35,7 @@ Once successfully deployed, test redirection is successful via local hostfile ma
 # Planet4 Production IP:
 dig +short prod.p4.greenpeace.org
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgreenpeace%2Fglobal-redirects.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgreenpeace%2Fglobal-redirects?ref=badge_large)
