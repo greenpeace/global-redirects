@@ -22,6 +22,10 @@
     {
      "from": "moon.greenpeace.org",
      "to": "storytelling.greenpeace.org"
+   },
+    {
+     "from": "180grad.lu",
+     "to": "www.greenpeace.org/luxembourg/fr/"
     }
   ]
 }
