@@ -17,108 +17,12 @@
       "to": "www.greenpeace.org/canada/en/"
     },
     {
-      "from": "moon.greenpeace.org",
-      "to": "storytelling.greenpeace.org"
-    },
-    {
-      "from": "socios.greenpeace.org",
-      "to": "colabora.greenpeace.es/"
-    },
-    {
-      "from": "www.socios.greenpeace.org",
-      "to": "colabora.greenpeace.es/"
-    },
-    {
       "from": "protegeons-locean-antarctique.greenpeace.lu",
       "to": "act.greenpeace.org/page/18261/petition/1"
     },
     {
-      "from": "julegave.greenpeace.org",
-      "to": "bidra.greenpeace.org/donation/julegave"
-    },
-    {
-      "from": "docs.greenpeace.org",
-      "to": "docs.google.com/a/greenpeace.org"
-    },
-    {
-      "from": "documents.greenpeace.org",
-      "to": "docs.google.com/a/greenpeace.org"
-    },
-    {
-      "from": "energia.greenpeace.org",
-      "to": "es.greenpeace.org/es/"
-    },
-    {
-      "from": "greenet.greenpeace.org",
-      "to": "greennet.greenpeace.org/"
-    },
-    {
-      "from": "thought.greenpeace.org",
-      "to": "greennet.greenpeace.org/"
-    },
-    {
-      "from": "lead.greenpeace.org",
-      "to": "greennet.greenpeace.org/content/149981"
-    },
-    {
-      "from": "learning.greenpeace.org",
-      "to": "greennet.greenpeace.org/content/240231/lms-learning-management-system"
-    },
-    {
-      "from": "brand.greenpeace.org",
-      "to": "greenpeace.github.io/globalbrandproject/"
-    },
-    {
       "from": "greenpeace.sk",
-      "to": "www.greenpeace.org/slovakia/"
-    },
-    {
-      "from": "groups.greenpeace.org",
-      "to": "groups.google.com/a/greenpeace.org/"
-    },
-    {
-      "from": "joululahja.greenpeace.org",
-      "to": "lahjoita.greenpeace.org/donation/joululahja"
-    },
-    {
-      "from": "webmail.greenpeace.org",
-      "to": "mail.google.com/a/greenpeace.org/"
-    },
-    {
-      "from": "images.greenpeace.org",
-      "to": "media.greenpeace.org/"
-    },
-    {
-      "from": "julklapp.greenpeace.org",
-      "to": "stod.greenpeace.org/donation/julklapp"
-    },
-    {
-      "from": "jul.greenpeace.org",
-      "to": "stoet.greenpeace.org/donation/jul"
-    },
-    {
-      "from": "jobsat.greenpeace.org",
-      "to": "workfor.greenpeace.org/"
-    },
-    {
-      "from": "cal.greenpeace.org",
-      "to": "www.google.com/calendar/a/greenpeace.org"
-    },
-    {
-      "from": "calendar.greenpeace.org",
-      "to": "www.google.com/calendar/a/greenpeace.org"
-    },
-    {
-      "from": "cybercentre.greenpeace.org",
-      "to": "www.greenpeace.org/"
-    },
-    {
-      "from": "forum.greenpeace.org",
-      "to": "www.greenpeace.org/"
-    },
-    {
-      "from": "greenmail2000.greenpeace.org",
-      "to": "www.greenpeace.org/"
+      "to": "www.greenpeace.sk/"
     },
     {
       "from": "greenpeace.com",
@@ -129,8 +33,100 @@
       "to": "www.greenpeace.org/"
     },
     {
-      "from": "sign-a-petition.greenpeace.org",
+      "from": "stopstarwars.com",
       "to": "www.greenpeace.org/"
+    },
+    {
+      "from": "stopstarwars.net",
+      "to": "www.greenpeace.org/"
+    },
+    {
+      "from": "stopstarwars.org",
+      "to": "www.greenpeace.org/"
+    },
+    {
+      "from": "www.greenpeace.net",
+      "to": "www.greenpeace.org/"
+    },
+    {
+      "from": "www.stopstarwars.com",
+      "to": "www.greenpeace.org/"
+    },
+    {
+      "from": "www.stopstarwars.net",
+      "to": "www.greenpeace.org/"
+    },
+    {
+      "from": "greenpeace.hr",
+      "to": "www.greenpeace.org/croatia/"
+    },
+    {
+      "from": "www.greenpeace.cz",
+      "to": "www.greenpeace.org/czech/"
+    },
+    {
+      "from": "greenpeace.dk",
+      "to": "www.greenpeace.org/denmark/"
+    },
+    {
+      "from": "greenpeace.eu",
+      "to": "www.greenpeace.org/eu-unit/"
+    },
+    {
+      "from": "www.greenpeace.eu",
+      "to": "www.greenpeace.org/eu-unit/"
+    },
+    {
+      "from": "greenpeace.fi",
+      "to": "www.greenpeace.org/finland/"
+    },
+    {
+      "from": "greenpeace.gr",
+      "to": "www.greenpeace.org/greece/"
+    },
+    {
+      "from": "www.greenpeace.gr",
+      "to": "www.greenpeace.org/greece/"
+    },
+    {
+      "from": "www.greenpeaceindia.org",
+      "to": "www.greenpeace.org/india/en/"
+    },
+    {
+      "from": "greenpeace.org.il",
+      "to": "www.greenpeace.org/israel/"
+    },
+    {
+      "from": "www.greenpeace.org.il",
+      "to": "www.greenpeace.org/israel/"
+    },
+    {
+      "from": "greenpeace.lu",
+      "to": "www.greenpeace.org/luxembourg/"
+    },
+    {
+      "from": "www.greenpeace.lu",
+      "to": "www.greenpeace.org/luxembourg/"
+    },
+    {
+      "from": "greenpeace.org.mx",
+      "to": "www.greenpeace.org/mexico/"
+    },
+    {
+      "from": "www.greenpeace.org.mx",
+      "to": "www.greenpeace.org/mexico/"
+    },
+    {
+      "from": "greenpeace.no",
+      "to": "www.greenpeace.org/norway/"
+    },
+    {
+      "from": "greenpeace.se",
+      "to": "www.greenpeace.org/sweden/"
+    },
+    {
+      "from": "www.greenpeace.org.tw",
+      "to": "www.greenpeace.org/taiwan/zh/"
     }
   ]
 }
