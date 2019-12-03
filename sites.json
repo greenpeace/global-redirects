@@ -17,104 +17,12 @@
       "to": "www.greenpeace.org/canada/en/"
     },
     {
-      "from": "moon.greenpeace.org",
-      "to": "storytelling.greenpeace.org"
-    },
-    {
-      "from": "socios.greenpeace.org",
-      "to": "colabora.greenpeace.es/"
-    },
-    {
-      "from": "www.socios.greenpeace.org",
-      "to": "colabora.greenpeace.es/"
-    },
-    {
       "from": "protegeons-locean-antarctique.greenpeace.lu",
       "to": "act.greenpeace.org/page/18261/petition/1"
     },
     {
-      "from": "docs.greenpeace.org",
-      "to": "docs.google.com/a/greenpeace.org"
-    },
-    {
-      "from": "documents.greenpeace.org",
-      "to": "docs.google.com/a/greenpeace.org"
-    },
-    {
-      "from": "energia.greenpeace.org",
-      "to": "es.greenpeace.org/es/"
-    },
-    {
-      "from": "greenet.greenpeace.org",
-      "to": "greennet.greenpeace.org/"
-    },
-    {
-      "from": "thought.greenpeace.org",
-      "to": "greennet.greenpeace.org/"
-    },
-    {
-      "from": "lead.greenpeace.org",
-      "to": "greennet.greenpeace.org/content/149981"
-    },
-    {
-      "from": "learning.greenpeace.org",
-      "to": "greennet.greenpeace.org/content/240231/lms-learning-management-system"
-    },
-    {
-      "from": "brand.greenpeace.org",
-      "to": "greenpeace.github.io/globalbrandproject/"
-    },
-    {
       "from": "greenpeace.sk",
       "to": "www.greenpeace.org/slovakia/"
-    },
-    {
-      "from": "groups.greenpeace.org",
-      "to": "groups.google.com/a/greenpeace.org/"
-    },
-    {
-      "from": "joululahja.greenpeace.org",
-      "to": "lahjoita.greenpeace.org/donation/joululahja"
-    },
-    {
-      "from": "webmail.greenpeace.org",
-      "to": "mail.google.com/a/greenpeace.org/"
-    },
-    {
-      "from": "images.greenpeace.org",
-      "to": "media.greenpeace.org/"
-    },
-    {
-      "from": "julklapp.greenpeace.org",
-      "to": "stod.greenpeace.org/donation/julklapp"
-    },
-    {
-      "from": "jul.greenpeace.org",
-      "to": "stoet.greenpeace.org/donation/jul"
-    },
-    {
-      "from": "jobsat.greenpeace.org",
-      "to": "workfor.greenpeace.org/"
-    },
-    {
-      "from": "cal.greenpeace.org",
-      "to": "www.google.com/calendar/a/greenpeace.org"
-    },
-    {
-      "from": "calendar.greenpeace.org",
-      "to": "www.google.com/calendar/a/greenpeace.org"
-    },
-    {
-      "from": "cybercentre.greenpeace.org",
-      "to": "www.greenpeace.org/"
-    },
-    {
-      "from": "forum.greenpeace.org",
-      "to": "www.greenpeace.org/"
-    },
-    {
-      "from": "greenmail2000.greenpeace.org",
-      "to": "www.greenpeace.org/"
     },
     {
       "from": "greenpeace.com",
@@ -122,10 +30,6 @@
     },
     {
       "from": "greenpeace.net",
-      "to": "www.greenpeace.org/"
-    },
-    {
-      "from": "sign-a-petition.greenpeace.org",
       "to": "www.greenpeace.org/"
     }
   ]
