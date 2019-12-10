@@ -133,6 +133,14 @@
       "to": "www.greenpeace.org/sweden/"
     },
     {
+      "from": "greenpeace.pt",
+      "to": "www.greenpeace.org/portugal"
+    },
+    {
+      "from": "www.greenpeace.pt",
+      "to": "www.greenpeace.org/portugal"
+    },
+    {
       "from": "www.greenpeace.org.tw",
       "to": "www.greenpeace.org/taiwan/zh/"
     }
