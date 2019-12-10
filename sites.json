@@ -97,8 +97,12 @@
       "to": "www.greenpeace.org/greece/"
     },
     {
+      "from": "greenpeaceindia.org",
+      "to": "www.greenpeace.org/india/en"
+    },
+    {
       "from": "www.greenpeaceindia.org",
-      "to": "www.greenpeace.org/india/en/"
+      "to": "www.greenpeace.org/india/en"
     },
     {
       "from": "greenpeace.org.il",
