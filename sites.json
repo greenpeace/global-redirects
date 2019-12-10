@@ -62,7 +62,11 @@
     },
     {
       "from": "greenpeace.hr",
-      "to": "www.greenpeace.org/croatia/"
+      "to": "www.greenpeace.org/croatia"
+    },
+    {
+      "from": "www.greenpeace.hr",
+      "to": "www.greenpeace.org/croatia"
     },
     {
       "from": "www.greenpeace.cz",
