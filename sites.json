@@ -26,7 +26,11 @@
     },
     {
       "from": "greenpeace.com",
-      "to": "www.greenpeace.org/"
+      "to": "www.greenpeace.org"
+    },
+    {
+      "from": "www.greenpeace.com",
+      "to": "www.greenpeace.org"
     },
     {
       "from": "greenpeace.net",
