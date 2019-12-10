@@ -34,7 +34,7 @@
     },
     {
       "from": "greenpeace.net",
-      "to": "www.greenpeace.org/"
+      "to": "www.greenpeace.org"
     },
     {
       "from": "stopstarwars.com",
@@ -50,7 +50,7 @@
     },
     {
       "from": "www.greenpeace.net",
-      "to": "www.greenpeace.org/"
+      "to": "www.greenpeace.org"
     },
     {
       "from": "www.stopstarwars.com",
@@ -62,7 +62,11 @@
     },
     {
       "from": "greenpeace.hr",
-      "to": "www.greenpeace.org/croatia/"
+      "to": "www.greenpeace.org/croatia"
+    },
+    {
+      "from": "www.greenpeace.hr",
+      "to": "www.greenpeace.org/croatia"
     },
     {
       "from": "www.greenpeace.cz",
@@ -74,11 +78,11 @@
     },
     {
       "from": "greenpeace.eu",
-      "to": "www.greenpeace.org/eu-unit/"
+      "to": "www.greenpeace.org/eu-unit"
     },
     {
       "from": "www.greenpeace.eu",
-      "to": "www.greenpeace.org/eu-unit/"
+      "to": "www.greenpeace.org/eu-unit"
     },
     {
       "from": "greenpeace.fi",
@@ -93,8 +97,12 @@
       "to": "www.greenpeace.org/greece/"
     },
     {
+      "from": "greenpeaceindia.org",
+      "to": "www.greenpeace.org/india/en"
+    },
+    {
       "from": "www.greenpeaceindia.org",
-      "to": "www.greenpeace.org/india/en/"
+      "to": "www.greenpeace.org/india/en"
     },
     {
       "from": "greenpeace.org.il",
@@ -106,11 +114,11 @@
     },
     {
       "from": "greenpeace.lu",
-      "to": "www.greenpeace.org/luxembourg/"
+      "to": "www.greenpeace.org/luxembourg"
     },
     {
       "from": "www.greenpeace.lu",
-      "to": "www.greenpeace.org/luxembourg/"
+      "to": "www.greenpeace.org/luxembourg"
     },
     {
       "from": "greenpeace.org.mx",
@@ -127,6 +135,14 @@
     {
       "from": "greenpeace.se",
       "to": "www.greenpeace.org/sweden/"
+    },
+    {
+      "from": "greenpeace.pt",
+      "to": "www.greenpeace.org/portugal"
+    },
+    {
+      "from": "www.greenpeace.pt",
+      "to": "www.greenpeace.org/portugal"
     },
     {
       "from": "www.greenpeace.org.tw",
