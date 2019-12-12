@@ -1,5 +1,6 @@
 {
-  "sites": [{
+  "sites": [
+    {
       "owners": [{
         "name": "Raymond Walker",
         "email": "rawalker@greenpeace.org",
@@ -20,6 +21,15 @@
       "from": "protegeons-locean-antarctique.greenpeace.lu",
       "to": "act.greenpeace.org/page/18261/petition/1"
     },
+    {
+        "owners": [{
+          "name": "Mark Reynolds",
+          "email": "mark.reynolds@greenpeace.org",
+          "unit": "GPI"
+        }],
+        "from": "appmaker.greenpeace.org",
+        "to": "sites.google.com/greenpeace.org/appmaker"
+      },
     {
       "from": "greenpeace.sk",
       "to": "www.greenpeace.sk/"
