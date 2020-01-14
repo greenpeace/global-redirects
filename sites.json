@@ -22,6 +22,18 @@
       "to": "act.greenpeace.org/page/18261/petition/1"
     },
     {
+      "from": "energiebierger.greenpeace.lu",
+      "to": "www.greenpeace.org/luxembourg/fr/agir/citoyens-de-lenergie-solaire"
+    },
+    {
+      "from": "stopnucleaire.greenpeace.lu",
+      "to": "www.greenpeace.org/luxembourg/fr/agir/exigez-la-fin-du-nucleaire"
+    },
+    {
+      "from": "dons.greenpeace.lu",
+      "to": "faire-un-don.greenpeace.lu/fr"
+    },
+    {
         "owners": [{
           "name": "Mark Reynolds",
           "email": "mark.reynolds@greenpeace.org",
@@ -47,28 +59,8 @@
       "to": "www.greenpeace.org"
     },
     {
-      "from": "stopstarwars.com",
-      "to": "www.greenpeace.org/"
-    },
-    {
-      "from": "stopstarwars.net",
-      "to": "www.greenpeace.org/"
-    },
-    {
-      "from": "stopstarwars.org",
-      "to": "www.greenpeace.org/"
-    },
-    {
       "from": "www.greenpeace.net",
       "to": "www.greenpeace.org"
-    },
-    {
-      "from": "www.stopstarwars.com",
-      "to": "www.greenpeace.org/"
-    },
-    {
-      "from": "www.stopstarwars.net",
-      "to": "www.greenpeace.org/"
     },
     {
       "from": "greenpeace.hr",
@@ -80,6 +72,10 @@
     },
     {
       "from": "www.greenpeace.cz",
+      "to": "www.greenpeace.org/czech/"
+    },
+    {
+      "from": "greenpeace.cz",
       "to": "www.greenpeace.org/czech/"
     },
     {
