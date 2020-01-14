@@ -22,6 +22,18 @@
       "to": "act.greenpeace.org/page/18261/petition/1"
     },
     {
+      "from": "energiebierger.greenpeace.lu",
+      "to": "www.greenpeace.org/luxembourg/fr/agir/citoyens-de-lenergie-solaire"
+    },
+    {
+      "from": "stopnucleaire.greenpeace.lu",
+      "to": "www.greenpeace.org/luxembourg/fr/agir/exigez-la-fin-du-nucleaire"
+    },
+    {
+      "from": "dons.greenpeace.lu",
+      "to": "faire-un-don.greenpeace.lu/fr"
+    },
+    {
         "owners": [{
           "name": "Mark Reynolds",
           "email": "mark.reynolds@greenpeace.org",
