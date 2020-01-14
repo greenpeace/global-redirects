@@ -10,14 +10,6 @@
       "to": "www.greenpeace.org"
     },
     {
-      "from": "greenpeace.ca",
-      "to": "www.greenpeace.org/canada/en/"
-    },
-    {
-      "from": "www.greenpeace.ca",
-      "to": "www.greenpeace.org/canada/en/"
-    },
-    {
       "from": "protegeons-locean-antarctique.greenpeace.lu",
       "to": "act.greenpeace.org/page/18261/petition/1"
     },
@@ -103,36 +95,12 @@
       "to": "www.greenpeace.org/greece/"
     },
     {
-      "from": "greenpeaceindia.org",
-      "to": "www.greenpeace.org/india/en"
-    },
-    {
-      "from": "www.greenpeaceindia.org",
-      "to": "www.greenpeace.org/india/en"
-    },
-    {
-      "from": "greenpeace.org.il",
-      "to": "www.greenpeace.org/israel/"
-    },
-    {
-      "from": "www.greenpeace.org.il",
-      "to": "www.greenpeace.org/israel/"
-    },
-    {
       "from": "greenpeace.lu",
       "to": "www.greenpeace.org/luxembourg"
     },
     {
       "from": "www.greenpeace.lu",
       "to": "www.greenpeace.org/luxembourg"
-    },
-    {
-      "from": "greenpeace.org.mx",
-      "to": "www.greenpeace.org/mexico/"
-    },
-    {
-      "from": "www.greenpeace.org.mx",
-      "to": "www.greenpeace.org/mexico/"
     },
     {
       "from": "greenpeace.no",
