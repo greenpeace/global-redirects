@@ -39,6 +39,22 @@
       "to": "www.greenpeace.sk/"
     },
     {
+      "from": "greenpeace.nl",
+      "to": "www.greenpeace.org/nl"
+    },
+    {
+      "from": "www.greenpeace.nl",
+      "to": "www.greenpeace.org/nl"
+    },
+    {
+      "from": "greenpeaceusa.org",
+      "to": "www.greenpeace.org/usa"
+    },
+    {
+      "from": "www.greenpeaceusa.org",
+      "to": "www.greenpeace.org/usa"
+    },
+    {
       "from": "greenpeace.com",
       "to": "www.greenpeace.org"
     },
@@ -75,6 +91,10 @@
       "to": "www.greenpeace.org/denmark/"
     },
     {
+      "from": "www.greenpeace.dk",
+      "to": "www.greenpeace.org/denmark/"
+    },
+    {
       "from": "greenpeace.eu",
       "to": "www.greenpeace.org/eu-unit"
     },
@@ -84,6 +104,10 @@
     },
     {
       "from": "greenpeace.fi",
+      "to": "www.greenpeace.org/finland/"
+    },
+    {
+      "from": "www.greenpeace.fi",
       "to": "www.greenpeace.org/finland/"
     },
     {
@@ -107,7 +131,15 @@
       "to": "www.greenpeace.org/norway/"
     },
     {
+      "from": "www.greenpeace.no",
+      "to": "www.greenpeace.org/norway/"
+    },
+    {
       "from": "greenpeace.se",
+      "to": "www.greenpeace.org/sweden/"
+    },
+    {
+      "from": "www.greenpeace.se",
       "to": "www.greenpeace.org/sweden/"
     },
     {
@@ -119,8 +151,12 @@
       "to": "www.greenpeace.org/portugal"
     },
     {
+      "from": "greenpeace.org.tw",
+      "to": "www.greenpeace.org/taiwan/"
+    },
+    {
       "from": "www.greenpeace.org.tw",
-      "to": "www.greenpeace.org/taiwan/zh/"
+      "to": "www.greenpeace.org/taiwan/"
     }
   ]
 }
