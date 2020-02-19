@@ -10,6 +10,10 @@
       "to": "www.greenpeace.org"
     },
     {
+      "from": "redirect.gp-test.org",
+      "to": "www.greenpeace.org/global"
+    },
+    {
       "from": "protegeons-locean-antarctique.greenpeace.lu",
       "to": "act.greenpeace.org/page/18261/petition/1"
     },
