@@ -1,6 +1,15 @@
 {
   "sites": [
     {
+      "owners": [{
+        "name": "Raymond Walker",
+        "email": "rawalker@greenpeace.org",
+        "unit": "GPI Operations"
+      }],
+      "from": "greenpeace.org",
+      "to": "www.greenpeace.org"
+    },
+    {
       "from": "protegeons-locean-antarctique.greenpeace.lu",
       "to": "act.greenpeace.org/page/18261/petition/1"
     },
