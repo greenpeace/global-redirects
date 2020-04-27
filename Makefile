@@ -46,7 +46,7 @@ list:
 clean:
 	@rm -fr ingress
 
-ingress: lint
+ingress:
 	@mkdir -p ingress
 	@./go.sh
 
