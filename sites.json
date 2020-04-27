@@ -1,162 +1,17 @@
 {
   "sites": [
     {
-      "owners": [{
-        "name": "Raymond Walker",
-        "email": "rawalker@greenpeace.org",
-        "unit": "GPI Operations"
-      }],
-      "from": "greenpeace.org",
-      "to": "www.greenpeace.org"
-    },
-    {
-      "from": "protegeons-locean-antarctique.greenpeace.lu",
-      "to": "act.greenpeace.org/page/18261/petition/1"
-    },
-    {
-      "from": "energiebierger.greenpeace.lu",
-      "to": "www.greenpeace.org/luxembourg/fr/agir/citoyens-de-lenergie-solaire"
-    },
-    {
-      "from": "stopnucleaire.greenpeace.lu",
-      "to": "www.greenpeace.org/luxembourg/fr/agir/exigeons-la-fin-du-nucleaire"
-    },
-    {
-      "from": "dons.greenpeace.lu",
-      "to": "faire-un-don.greenpeace.lu/fr"
-    },
-    {
-        "owners": [{
-          "name": "Mark Reynolds",
-          "email": "mark.reynolds@greenpeace.org",
-          "unit": "GPI"
-        }],
-        "from": "appmaker.greenpeace.org",
-        "to": "sites.google.com/greenpeace.org/appmaker"
-      },
-    {
-      "from": "greenpeace.sk",
-      "to": "www.greenpeace.sk/"
-    },
-    {
-      "from": "greenpeace.nl",
-      "to": "greenpeace.org/nl"
-    },
-    {
-      "from": "www.greenpeace.nl",
-      "to": "greenpeace.org/nl"
-    },
-    {
-      "from": "greenpeaceusa.org",
-      "to": "www.greenpeace.org/usa"
-    },
-    {
-      "from": "www.greenpeaceusa.org",
-      "to": "www.greenpeace.org/usa"
-    },
-    {
-      "from": "greenpeace.com",
-      "to": "www.greenpeace.org"
-    },
-    {
-      "from": "www.greenpeace.com",
-      "to": "www.greenpeace.org"
-    },
-    {
-      "from": "greenpeace.net",
-      "to": "www.greenpeace.org"
-    },
-    {
-      "from": "www.greenpeace.net",
-      "to": "www.greenpeace.org"
-    },
-    {
-      "from": "greenpeace.hr",
-      "to": "www.greenpeace.org/croatia"
-    },
-    {
-      "from": "www.greenpeace.hr",
-      "to": "www.greenpeace.org/croatia"
-    },
-    {
-      "from": "www.greenpeace.cz",
-      "to": "www.greenpeace.org/czech/"
-    },
-    {
-      "from": "greenpeace.cz",
-      "to": "www.greenpeace.org/czech/"
-    },
-    {
-      "from": "greenpeace.dk",
-      "to": "www.greenpeace.org/denmark/"
-    },
-    {
-      "from": "www.greenpeace.dk",
-      "to": "www.greenpeace.org/denmark/"
-    },
-    {
-      "from": "greenpeace.eu",
-      "to": "www.greenpeace.org/eu-unit"
-    },
-    {
-      "from": "www.greenpeace.eu",
-      "to": "www.greenpeace.org/eu-unit"
-    },
-    {
-      "from": "greenpeace.fi",
-      "to": "www.greenpeace.org/finland/"
-    },
-    {
-      "from": "www.greenpeace.fi",
-      "to": "www.greenpeace.org/finland/"
-    },
-    {
-      "from": "greenpeace.gr",
-      "to": "www.greenpeace.org/greece/"
-    },
-    {
-      "from": "www.greenpeace.gr",
-      "to": "www.greenpeace.org/greece/"
-    },
-    {
-      "from": "greenpeace.lu",
-      "to": "www.greenpeace.org/luxembourg"
-    },
-    {
-      "from": "www.greenpeace.lu",
-      "to": "www.greenpeace.org/luxembourg"
-    },
-    {
-      "from": "greenpeace.no",
-      "to": "www.greenpeace.org/norway/"
-    },
-    {
-      "from": "www.greenpeace.no",
-      "to": "www.greenpeace.org/norway/"
-    },
-    {
-      "from": "greenpeace.se",
-      "to": "www.greenpeace.org/sweden/"
-    },
-    {
-      "from": "www.greenpeace.se",
-      "to": "www.greenpeace.org/sweden/"
-    },
-    {
-      "from": "greenpeace.pt",
-      "to": "www.greenpeace.org/portugal"
-    },
-    {
-      "from": "www.greenpeace.pt",
-      "to": "www.greenpeace.org/portugal"
-    },
-    {
-      "from": "greenpeace.org.tw",
-      "to": "www.greenpeace.org/taiwan/"
-    },
-    {
-      "from": "www.greenpeace.org.tw",
-      "to": "www.greenpeace.org/taiwan/"
+      "name": "p4.jencub.xyz",
+      "description": "Testing redirects",
+      "owners": [
+        {
+         "name": "P4 Administrator",
+         "email": "planet4.ops@greenpeace.org",
+         "unit": "GPI Operations"
+        }
+      ],
+      "from": "p4.jencub.xyz",
+      "to": "k8s.p4.greenpeace.org/jctest"
     }
   ]
 }

@@ -1,19 +1,22 @@
 ---
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
 metadata:
   annotations:
-    kubernetes.io/ingress.class: traefik
+    kubernetes.io/ingress.class: redirects-nginx
     p4.kubernetes.io/redirect-owners: "{{ .Env.OWNERS }}"
     p4.kubernetes.io/redirect-description: "{{ .Env.DESCRIPTION }}"
-    traefik.ingress.kubernetes.io/redirect-permanent: "true"
-    traefik.ingress.kubernetes.io/redirect-regex: "^https?://{{ .Env.FROM }}(.*)"
-    traefik.ingress.kubernetes.io/redirect-replacement: "https://{{ .Env.TO }}$1"
+    nginx.ingress.kubernetes.io/rewrite-target: "https://{{ .Env.TO }}$1"
+    cert-manager.io/issuer: letsencrypt-prod
   labels:
     app: redirects
   name: redirects-{{ .Env.NAME }}
   namespace: {{ default .Env.NAMESPACE "default" }}
 spec:
+  tls:
+  - hosts:
+    - {{ .Env.FROM }}
+      secretName: {{ .Env.NAME }}-tls
   rules:
     - host: {{ .Env.FROM }}
       http:
