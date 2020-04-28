@@ -12,7 +12,6 @@ jobs:
       - checkout
       - run: mkdir /tmp/artifacts
       - run: make lint | tee /tmp/artifacts/job.log
-      - run: cp -R ingress /tmp/artifacts
       - store_artifacts:
           path: /tmp/artifacts
       - run:

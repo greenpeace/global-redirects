@@ -23,7 +23,7 @@ init: .git/hooks/pre-commit
 	@find .git/hooks -type l -exec rm {} \;
 	@find .githooks -type f -exec ln -sf ../../{} .git/hooks/ \;
 
-lint: init lint-json
+lint: init lint-json ingress lint-yaml
 
 lint-yaml:
 ifdef YAMLLINT
@@ -50,7 +50,7 @@ ingress:
 	@mkdir -p ingress
 	@./go.sh
 
-dev: ingress lint-yaml
+dev:
 ifndef CI
 	$(error This is intended to be deployed via CI, please commit and push)
 endif
