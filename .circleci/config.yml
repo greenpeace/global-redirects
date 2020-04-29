@@ -107,7 +107,7 @@ workflows:
       - prod:
           context: org-global
           requires:
-            - propprep
+            - prodprep
           filters:
             branches:
               only:
