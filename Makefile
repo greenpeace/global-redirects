@@ -23,7 +23,7 @@ init: .git/hooks/pre-commit
 	@find .git/hooks -type l -exec rm {} \;
 	@find .githooks -type f -exec ln -sf ../../{} .git/hooks/ \;
 
-lint: init lint-json ingress lint-yaml
+lint: init lint-json
 
 lint-yaml:
 ifdef YAMLLINT
@@ -46,11 +46,19 @@ list:
 clean:
 	@rm -fr ingress
 
-ingress:
+devingress:
 	@mkdir -p ingress
-	@./go.sh
+	@./go.sh dev.sites.json
 
-dev:
+prodingress:
+	@mkdir -p ingress
+	@./go.sh prod.sites.json
+
+devprep: lint clean devingress lint-yaml
+
+prodprep: lint clean prodingress lint-yaml
+
+dev: devprep
 ifndef CI
 	$(error This is intended to be deployed via CI, please commit and push)
 endif
@@ -58,7 +66,7 @@ endif
 	gcloud container clusters get-credentials $(DEV_CLUSTER) --zone $(DEV_ZONE) --project $(DEV_PROJECT)
 	kubectl -n $(NAMESPACE) apply -f ingress/
 
-prod: ingress lint-yaml
+prod: prodprep
 ifndef CI
 	$(error This is intended to be deployed via CI, please commit and push)
 endif

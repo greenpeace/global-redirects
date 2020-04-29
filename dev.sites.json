@@ -1,8 +1,6 @@
 {
   "sites": [
     {
-      "name": "p4.jencub.xyz",
-      "description": "Testing redirects",
       "owners": [
         {
          "name": "P4 Administrator",
@@ -10,7 +8,7 @@
          "unit": "GPI Operations"
         }
       ],
-      "from": "p4.jencub.xyz",
+      "from": "jencub.xyz",
       "to": "k8s.p4.greenpeace.org/jctest"
     }
   ]
