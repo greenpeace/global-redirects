@@ -7,7 +7,6 @@ metadata:
     p4.kubernetes.io/redirect-owners: "{{ .Env.OWNERS }}"
     p4.kubernetes.io/redirect-description: "{{ .Env.DESCRIPTION }}"
     nginx.ingress.kubernetes.io/rewrite-target: "https://{{ .Env.TO }}"
-    nginx.ingress.kubernetes.io/from-to-www-redirect: "true"
     cert-manager.io/issuer: letsencrypt-prod
   labels:
     app: redirects
@@ -17,7 +16,6 @@ spec:
   tls:
     - hosts:
         - {{ .Env.FROM }}
-        - www.{{ .Env.FROM }}
       secretName: {{ .Env.NAME }}-tls
   rules:
     - host: {{ .Env.FROM }}
