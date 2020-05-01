@@ -1,9 +1,13 @@
 
 .EXPORT_ALL_VARIABLES:
 
-NAMESPACE := default
+NAMESPACE := global-redirects
 
 DEFAULT_OWNER := global-it-operation@greenpeace.org
+
+DEV_CLUSTER ?= p4-development
+DEV_PROJECT ?= planet-4-151612
+DEV_ZONE ?= us-central1-a
 
 PROD_CLUSTER ?= planet4-production
 PROD_PROJECT ?= planet4-production
@@ -12,8 +16,6 @@ PROD_ZONE ?= us-central1-a
 YAMLLINT := $(shell command -v yamllint 2> /dev/null)
 JQ := $(shell command -v jq 2> /dev/null)
 
-all: init lint deploy
-
 init: .git/hooks/pre-commit
 
 .git/hooks/%:
@@ -21,7 +23,7 @@ init: .git/hooks/pre-commit
 	@find .git/hooks -type l -exec rm {} \;
 	@find .githooks -type f -exec ln -sf ../../{} .git/hooks/ \;
 
-lint: init lint-json clean ingress lint-yaml
+lint: init lint-json
 
 lint-yaml:
 ifdef YAMLLINT
@@ -44,29 +46,33 @@ list:
 clean:
 	@rm -fr ingress
 
-ingress: lint
+devingress:
 	@mkdir -p ingress
-	@./go.sh
+	@./go.sh dev.sites.json
 
-connect:
-	gcloud config set project $(PROD_PROJECT)
-	gcloud container clusters get-credentials $(PROD_CLUSTER) --zone $(PROD_ZONE) --project $(PROD_PROJECT)
+prodingress:
+	@mkdir -p ingress
+	@./go.sh prod.sites.json
 
-namespace: connect
-	-kubectl create namespace $(NAMESPACE)
+devprep: lint clean devingress lint-yaml
 
-deploy: ingress lint connect namespace
+prodprep: lint clean prodingress lint-yaml
+
+dev: devprep
 ifndef CI
 	$(error This is intended to be deployed via CI, please commit and push)
 endif
+	gcloud config set project $(DEV_PROJECT)
+	gcloud container clusters get-credentials $(DEV_CLUSTER) --zone $(DEV_ZONE) --project $(DEV_PROJECT)
+	kubectl -n $(NAMESPACE) apply -f ingress/
+
+prod: prodprep
+ifndef CI
+	$(error This is intended to be deployed via CI, please commit and push)
+endif
+	gcloud config set project $(PROD_PROJECT)
+	gcloud container clusters get-credentials $(PROD_PROJECT) --zone $(PROD_ZONE) --project $(PROD_PROJECT)
 	kubectl -n $(NAMESPACE) apply -f ingress/
 
 destroy: lint connect
 	kubectl -n $(NAMESPACE) delete -f ingress/
-
-traefik: lint connect
-	for i in $(shell kubectl -n kube-system get pod -l app=traefik -o name); \
-	do echo $$i; \
-	kubectl -n kube-system delete $$i; \
-	sleep 20; \
-	done
