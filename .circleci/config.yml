@@ -48,7 +48,7 @@ jobs:
       - run: activate-gcloud-account.sh
       - deploy:
           name: Deploy to development cluster
-          command: make | tee /tmp/artifacts/job.log
+          command: make dev | tee /tmp/artifacts/job.log
       - run: cp -R ingress /tmp/artifacts
       - store_artifacts:
           path: /tmp/artifacts
@@ -74,7 +74,7 @@ jobs:
       - run: activate-gcloud-account.sh
       - deploy:
           name: Deploy to production cluster
-          command: make | tee /tmp/artifacts/job.log
+          command: make prod | tee /tmp/artifacts/job.log
       - run: cp -R ingress /tmp/artifacts
       - store_artifacts:
           path: /tmp/artifacts
