@@ -6,7 +6,7 @@ metadata:
     kubernetes.io/ingress.class: redirects-nginx
     p4.kubernetes.io/redirect-owners: "{{ .Env.OWNERS }}"
     p4.kubernetes.io/redirect-description: "{{ .Env.DESCRIPTION }}"
-    nginx.ingress.kubernetes.io/rewrite-target: "https://{{ .Env.TO }}"
+    nginx.ingress.kubernetes.io/rewrite-target: "https://{{ .Env.TO }}/$1"
     cert-manager.io/issuer: letsencrypt-prod
   labels:
     app: redirects
@@ -21,7 +21,7 @@ spec:
     - host: {{ .Env.FROM }}
       http:
         paths:
-          - path: /
+          - path: /(.*)
             backend:
               serviceName: p4-robots-static
               servicePort: 80
