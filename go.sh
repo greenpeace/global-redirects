@@ -51,4 +51,4 @@ main() {
   done
 }
 
-main ${1:-sites.json}
+main $1

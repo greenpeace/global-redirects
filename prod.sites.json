@@ -1,0 +1,15 @@
+{
+  "sites": [
+    {
+      "owners": [
+        {
+         "name": "Vladimir Douda",
+         "email": "vladimir.douda@greenpeace.org",
+         "unit": "Greenpeace Česká republika"
+        }
+      ],
+      "from": "greenpeace.cz",
+      "to": "www.greenpeace.org/czech/"
+    }
+  ]
+}

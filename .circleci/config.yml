@@ -6,13 +6,12 @@ defaults: &defaults
 version: 2
 
 jobs:
-  lint:
+  devprep:
     <<: *defaults
     steps:
       - checkout
       - run: mkdir /tmp/artifacts
-      - run: make lint | tee /tmp/artifacts/job.log
-      - run: cp -R ingress /tmp/artifacts
+      - run: make devprep | tee /tmp/artifacts/job.log
       - store_artifacts:
           path: /tmp/artifacts
       - run:
@@ -23,7 +22,49 @@ jobs:
             EXTRA_TEXT="\`\`\`$(cat /tmp/job.log)\`\`\`" \
             notify-job-failure.sh
 
-  deploy:
+  prodprep:
+    <<: *defaults
+    steps:
+      - checkout
+      - run: mkdir /tmp/artifacts
+      - run: make prodprep | tee /tmp/artifacts/job.log
+      - store_artifacts:
+          path: /tmp/artifacts
+      - run:
+          name: Notify failure
+          when: on_fail
+          command: |
+            TYPE="Lint" \
+            EXTRA_TEXT="\`\`\`$(cat /tmp/job.log)\`\`\`" \
+            notify-job-failure.sh
+
+  dev:
+    <<: *defaults
+    environment:
+      GOOGLE_PROJECT_ID: planet-4-151612
+    steps:
+      - checkout
+      - run: mkdir /tmp/artifacts
+      - run: activate-gcloud-account.sh
+      - deploy:
+          name: Deploy to development cluster
+          command: make dev | tee /tmp/artifacts/job.log
+      - run: cp -R ingress /tmp/artifacts
+      - store_artifacts:
+          path: /tmp/artifacts
+      - run:
+          name: Notify failure
+          when: on_fail
+          command: |
+            TYPE="Deploy" \
+            EXTRA_TEXT="\`\`\`$(cat /tmp/artifacts/job.log)\`\`\`" \
+            notify-job-failure.sh
+      - run: |
+          TYPE="Deploy" \
+          EXTRA_TEXT="\`\`\`$(cat /tmp/artifacts/job.log)\`\`\`"  \
+          notify-job-success.sh
+
+  prod:
     <<: *defaults
     environment:
       GOOGLE_PROJECT_ID: planet4-production
@@ -31,7 +72,9 @@ jobs:
       - checkout
       - run: mkdir /tmp/artifacts
       - run: activate-gcloud-account.sh
-      - run: make | tee /tmp/artifacts/job.log
+      - deploy:
+          name: Deploy to production cluster
+          command: make prod | tee /tmp/artifacts/job.log
       - run: cp -R ingress /tmp/artifacts
       - store_artifacts:
           path: /tmp/artifacts
@@ -42,16 +85,29 @@ jobs:
             TYPE="Test" \
             EXTRA_TEXT="\`\`\`$(cat /tmp/artifacts/job.log)\`\`\`" \
             notify-job-failure.sh
+      - run: |
+          TYPE="Deploy" \
+          EXTRA_TEXT="\`\`\`$(cat /tmp/artifacts/job.log)\`\`\`"  \
+          notify-job-success.sh
 
 workflows:
   version: 2
   commit:
     jobs:
-      - lint
-      - deploy:
+      - devprep
+      - prodprep
+      - dev:
           context: org-global
           requires:
-            - lint
+            - devprep
+          filters:
+            branches:
+              only:
+                - develop
+      - prod:
+          context: org-global
+          requires:
+            - prodprep
           filters:
             branches:
               only:
