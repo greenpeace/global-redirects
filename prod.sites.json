@@ -9,7 +9,227 @@
         }
       ],
       "from": "greenpeace.cz",
-      "to": "www.greenpeace.org/czech/"
+      "to": "www.greenpeace.org/czech"
+    },
+    {
+      "owners": [
+        {
+         "name": "P4 Administrator",
+         "email": "planet4.ops@greenpeace.org",
+         "unit": "GPI Operations"
+        }
+      ],
+      "from": "prod.jencub.xyz",
+      "to": "k8s.p4.greenpeace.org/jctest"
+    },
+    {
+      "owners": [
+        {
+         "name": "GPI Ops",
+         "email": "global-it-operation@greenpeace.org",
+         "unit": "GPI Operations"
+        }
+      ],
+      "from": "greenpeace.lu",
+      "to": "www.greenpeace.org/luxembourg/fr"
+    },
+    {
+      "owners": [
+        {
+         "name": "GPI Ops",
+         "email": "global-it-operation@greenpeace.org",
+         "unit": "GPI Operations"
+        }
+      ],
+      "from": "www.greenpeace.lu",
+      "to": "www.greenpeace.org/luxembourg/fr"
+    },
+    {
+      "owners": [
+        {
+         "name": "Marton Torok",
+         "email": "marton.torok@greenpeace.org",
+         "unit": "Greenpeace Slovakia"
+        }
+      ],
+      "from": "greenpeace.sk",
+      "to": "www.greenpeace.sk"
+    },
+    {
+      "owners": [
+        {
+         "name": "GPI Ops",
+         "emal": "global-it-operation@greenpeace.org",
+         "unit": "GPI Operations"
+        }
+      ],
+      "from": "greenpeace.com",
+      "to": "www.greenpeace.org"
+    },
+    {
+      "owners": [
+        {
+         "name": "Jonathan Findalen",
+         "emal": "jonathan.findalen@greenpeace.org",
+         "unit": "Greenpeace Denmark"
+        }
+      ],
+      "from": "greenpeace.dk",
+      "to": "www.greenpeace.org/denmark"
+    },
+    {
+      "owners": [
+        {
+         "name": "John Hyland",
+         "emal": "john.hyland@greenpeace.org",
+         "unit": "Greenpeace EU Unit"
+        }
+      ],
+      "from": "greenpeace.eu",
+      "to": "www.greenpeace.org/eu-unit"
+    },
+    {
+      "owners": [
+        {
+         "name": "Jani Sipila",
+         "emal": "jani.sipila@greenpeace.org",
+         "unit": "Greenpeace Finland"
+        }
+      ],
+      "from": "greenpeace.fi",
+      "to": "www.greenpeace.org/finland"
+    },
+    {
+      "owners": [
+        {
+         "name": "Kostantinos Spiliopoulos",
+         "emal": "kostantinos.spiliopoulos@greenpeace.org",
+         "unit": "Greenpeace Greece"
+        }
+      ],
+      "from": "greenpeace.gr",
+      "to": "www.greenpeace.org/greece"
+    },
+    {
+      "owners": [
+        {
+         "name": "GPI Ops",
+         "emal": "global-it-operation@greenpeace.org",
+         "unit": "GPI Operations"
+        }
+      ],
+      "from": "greenpeace.hr",
+      "to": "www.greenpeace.org/croatia"
+    },
+    {
+      "owners": [
+        {
+         "name": "GPI Ops",
+         "emal": "global-it-operation@greenpeace.org",
+         "unit": "GPI Operations"
+        }
+      ],
+      "from": "greenpeace.net",
+      "to": "www.greenpeace.org"
+    },
+    {
+      "owners": [
+        {
+         "name": "Oscar Keur",
+         "emal": "oscar.keur@greenpeace.org",
+         "unit": "Greenpeace Netherlands"
+        }
+      ],
+      "from": "greenpeace.nl",
+      "to": "greenpeace.org/nl"
+    },
+    {
+      "owners": [
+        {
+         "name": "Jack Sharp",
+         "emal": "jack.sharp@greenpeace.org",
+         "unit": "Greenpeace Norway"
+        }
+      ],
+      "from": "greenpeace.no",
+      "to": "www.greenpeace.org/norway"
+    },
+    {
+      "owners": [
+        {
+         "name": "GPI Ops",
+         "emal": "global-it-operation@greenpeace.org",
+         "unit": "GPI Operations"
+        }
+      ],
+      "from": "greenpeace.org",
+      "to": "www.greenpeace.org"
+    },
+    {
+      "owners": [
+        {
+         "name": "Up Chen",
+         "emal": "up.chen@greenpeace.org",
+         "unit": "Greenpeace Taiwan"
+        }
+      ],
+      "from": "greenpeace.org.tw",
+      "to": "www.greenpeace.org/taiwan"
+    },
+    {
+      "owners": [
+        {
+         "name": "Gustav Martner",
+         "emal": "gustav.martner@greenpeace.org",
+         "unit": "Greenpeace Sweden"
+        }
+      ],
+      "from": "greenpeace.se",
+      "to": "www.greenpeace.org/sweden"
+    },
+    {
+      "owners": [
+        {
+         "name": "GPI Ops",
+         "emal": "global-it-operation@greenpeace.org",
+         "unit": "GPI Operations"
+        }
+      ],
+      "from": "dons.greenpeace.lu",
+      "to": "faire-un-don.greenpeace.lu/fr"
+    },
+    {
+      "owners": [
+        {
+         "name": "GPI Ops",
+         "emal": "global-it-operation@greenpeace.org",
+         "unit": "GPI Operations"
+        }
+      ],
+      "from": "energiebierger.greenpeace.lu",
+      "to": "www.greenpeace.org/luxembourg/fr/agir/citoyens-de-lenergie-solaire"
+    },
+    {
+      "owners": [
+        {
+         "name": "GPI Ops",
+         "emal": "global-it-operation@greenpeace.org",
+         "unit": "GPI Operations"
+        }
+      ],
+      "from": "protegeons-locean-antarctique.greenpeace.lu",
+      "to": "act.greenpeace.org/page/18261/petition/1"
+    },
+    {
+      "owners": [
+        {
+         "name": "GPI Ops",
+         "emal": "global-it-operation@greenpeace.org",
+         "unit": "GPI Operations"
+        }
+      ],
+      "from": "stopnucleaire.greenpeace.lu",
+      "to": "www.greenpeace.org/luxembourg/fr/agir/exigeons-la-fin-du-nucleaire"
     }
   ]
 }
