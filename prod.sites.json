@@ -179,6 +179,17 @@
     {
       "owners": [
         {
+         "name": "Oscar Keur",
+         "emal": "oscar.keur@greenpeace.org",
+         "unit": "Greenpeace Netherlands"
+        }
+      ],
+      "from": "www.greenpeace.nl",
+      "to": "greenpeace.org/nl"
+    },
+    {
+      "owners": [
+        {
          "name": "Jack Sharp",
          "emal": "jack.sharp@greenpeace.org",
          "unit": "Greenpeace Norway"
