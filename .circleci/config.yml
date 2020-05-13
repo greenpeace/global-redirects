@@ -108,6 +108,7 @@ workflows:
   commit:
     jobs:
       - lint
+      - devprep
       - prodprep
       - dev:
           context: org-global
