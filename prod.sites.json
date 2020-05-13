@@ -14,6 +14,17 @@
     {
       "owners": [
         {
+         "name": "Vladimir Douda",
+         "email": "vladimir.douda@greenpeace.org",
+         "unit": "Greenpeace Česká republika"
+        }
+      ],
+      "from": "www.greenpeace.cz",
+      "to": "www.greenpeace.org/czech"
+    },
+    {
+      "owners": [
+        {
          "name": "P4 Administrator",
          "email": "planet4.ops@greenpeace.org",
          "unit": "GPI Operations"

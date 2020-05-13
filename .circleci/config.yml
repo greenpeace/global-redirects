@@ -6,6 +6,19 @@ defaults: &defaults
 version: 2
 
 jobs:
+  lint:
+    <<: *defaults
+    steps:
+      - checkout
+      - run: make lint | tee /tmp/lint.log
+      - run:
+          name: Notify failure
+          when: on_fail
+          command: |
+            TYPE="Test" \
+            EXTRA_TEXT="\`\`\`$(cat /tmp/lint.log)\`\`\`" \
+            notify-job-failure.sh
+
   devprep:
     <<: *defaults
     steps:
@@ -94,6 +107,7 @@ workflows:
   version: 2
   commit:
     jobs:
+      - lint
       - devprep
       - prodprep
       - dev:
