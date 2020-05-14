@@ -245,12 +245,23 @@
     {
       "owners": [
         {
-         "name": "Up Chen",
-         "emal": "up.chen@greenpeace.org",
+         "name": "Enoch Yim",
+         "emal": "enoch.yim@greenpeace.org",
          "unit": "Greenpeace Taiwan"
         }
       ],
       "from": "greenpeace.org.tw",
+      "to": "www.greenpeace.org/taiwan"
+    },
+    {
+      "owners": [
+        {
+         "name": "Enoch Yim",
+         "emal": "enoch.yim@greenpeace.org",
+         "unit": "Greenpeace Taiwan"
+        }
+      ],
+      "from": "www.greenpeace.org.tw",
       "to": "www.greenpeace.org/taiwan"
     },
     {
