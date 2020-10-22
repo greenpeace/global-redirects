@@ -307,6 +307,75 @@
       ],
       "from": "www.greenpeace.pt",
       "to": "www.greenpeace.org/portugal"
+    },
+    {
+      "owners": [
+        {
+         "name": "Wassim Youssef",
+         "emal": "wyoussef@greenpeace.org",
+         "unit": "Greenpeace MENA"
+        }
+      ],
+      "from": "ummah4earth.com",
+      "to": "ummah4earth.org"
+    },
+
+    {
+      "owners": [
+        {
+         "name": "Wassim Youssef",
+         "emal": "wyoussef@greenpeace.org",
+         "unit": "Greenpeace MENA"
+        }
+      ],
+      "from": "www.ummah4earth.com",
+      "to": "ummah4earth.org"
+    },
+    {
+      "owners": [
+        {
+         "name": "Wassim Youssef",
+         "emal": "wyoussef@greenpeace.org",
+         "unit": "Greenpeace MENA"
+        }
+      ],
+      "from": "ummahforearth.org",
+      "to": "ummah4earth.org"
+    },
+
+    {
+      "owners": [
+        {
+         "name": "Wassim Youssef",
+         "emal": "wyoussef@greenpeace.org",
+         "unit": "Greenpeace MENA"
+        }
+      ],
+      "from": "www.ummahforearth.org",
+      "to": "ummah4earth.org"
+    },
+    {
+      "owners": [
+        {
+         "name": "Wassim Youssef",
+         "emal": "wyoussef@greenpeace.org",
+         "unit": "Greenpeace MENA"
+        }
+      ],
+      "from": "ummahforearth.com",
+      "to": "ummah4earth.org"
+    },
+
+    {
+      "owners": [
+        {
+         "name": "Wassim Youssef",
+         "emal": "wyoussef@greenpeace.org",
+         "unit": "Greenpeace MENA"
+        }
+      ],
+      "from": "www.ummahforearth.com",
+      "to": "ummah4earth.org"
     }
   ]
 }
