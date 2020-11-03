@@ -376,6 +376,18 @@
       ],
       "from": "www.ummahforearth.com",
       "to": "ummah4earth.org"
+    },
+
+    {
+      "owners": [
+        {
+         "name": "Davin Hutchins",
+         "emal": "davin.hutchins@greenpeace.org",
+         "unit": "GPI"
+        }
+      ],
+      "from": "lessismore.greenpeace.org",
+      "to": "wayback.archive-it.org/9650/20200923222836/https://lessismore.greenpeace.org"
     }
   ]
 }
