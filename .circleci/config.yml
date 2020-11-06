@@ -114,9 +114,12 @@ workflows:
   version: 2
   commit:
     jobs:
-      - lint
-      - devprep
-      - prodprep
+      - lint:
+          context: org-global
+      - devprep:
+          context: org-global
+      - prodprep:
+          context: org-global
       - dev:
           context: org-global
           requires:
