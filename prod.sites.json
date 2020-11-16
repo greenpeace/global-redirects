@@ -64,7 +64,18 @@
         }
       ],
       "from": "greenpeace.sk",
-      "to": "www.greenpeace.sk"
+      "to": "www.greenpeace.org/slovakia"
+    },
+    {
+      "owners": [
+        {
+         "name": "Marton Torok",
+         "email": "marton.torok@greenpeace.org",
+         "unit": "Greenpeace Slovakia"
+        }
+      ],
+      "from": "www.greenpeace.sk",
+      "to": "www.greenpeace.org/slovakia"
     },
     {
       "owners": [
