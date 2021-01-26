@@ -9,7 +9,7 @@
         }
       ],
       "from": "jencub.club",
-      "to": "k8s.p4.greenpeace.org/jctest"
+      "to": "www-dev.greenpeace.org/jctest"
     },
     {
       "owners": [
@@ -20,7 +20,7 @@
         }
       ],
       "from": "www.jencub.club",
-      "to": "k8s.p4.greenpeace.org/jctest"
+      "to": "www-dev.greenpeace.org/jctest"
     }
   ]
 }
