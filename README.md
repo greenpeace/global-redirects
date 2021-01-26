@@ -1,6 +1,4 @@
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgreenpeace%2Fglobal-redirects.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgreenpeace%2Fglobal-redirects?ref=badge_shield)
-
-[![Greenpeace](https://circleci.com/gh/greenpeace/global-redirects.svg?style=shield)](https://circleci.com/gh/greenpeace/global-redirects)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgreenpeace%2Fglobal-redirects.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgreenpeace%2Fglobal-redirects?ref=badge_shield)  [![Greenpeace](https://circleci.com/gh/greenpeace/global-redirects.svg?style=shield)](https://circleci.com/gh/greenpeace/global-redirects)
 
 ![Planet4](./p4logo.png)
 
@@ -49,8 +47,8 @@ dig +short prod.p4.greenpeace.org
 ```
 
 ### Usage
- - Clone the repo to access makefile commands via cli that are not executed via CircleCI where <env> is dev or prod:
-   - `make list` - <em> display status of named release </em>
+ - Clone the repo to access makefile commands via cli that are not executed via CircleCI:
+   - `make list` - <em> List all ingresses </em>
    - `make destroy` - <em> destroy all deployed ingresses </em> <strong> CAUSES DATA LOSS </strong>
 
 
