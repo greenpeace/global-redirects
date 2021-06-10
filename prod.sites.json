@@ -399,6 +399,72 @@
       ],
       "from": "lessismore.greenpeace.org",
       "to": "wayback.archive-it.org/9650/20200923222836/https://lessismore.greenpeace.org"
+    },
+    {
+      "owners": [
+        {
+         "name": "Matjaž Dovečar",
+         "emal": "matjaz.dovecar@greenpeace.org",
+         "unit": "Greenpeace Slovenia"
+        }
+      ],
+      "from": "greenpeace.si",
+      "to": "www.greenpeace.org/slovenia"
+    },
+    {
+      "owners": [
+        {
+         "name": "Matjaž Dovečar",
+         "emal": "matjaz.dovecar@greenpeace.org",
+         "unit": "Greenpeace Slovenia"
+        }
+      ],
+      "from": "www.greenpeace.si",
+      "to": "www.greenpeace.org/slovenia"
+    },
+    {
+      "owners": [
+        {
+         "name": "Alexandru Opriţa",
+         "emal": "alexandru.oprita@greenpeace.org",
+         "unit": "Greenpeace Romania"
+        }
+      ],
+      "from": "greenpeace.ro",
+      "to": "www.greenpeace.org/romania"
+    },
+    {
+      "owners": [
+        {
+         "name": "Alexandru Opriţa",
+         "emal": "alexandru.oprita@greenpeace.org",
+         "unit": "Greenpeace Romania"
+        }
+      ],
+      "from": "www.greenpeace.ro",
+      "to": "www.greenpeace.org/romania"
+    },
+    {
+      "owners": [
+        {
+         "name": "Bojidar Nikolov",
+         "emal": "bojidar.nikolov@greenpeace.org",
+         "unit": "Greenpeace Bulgaria"
+        }
+      ],
+      "from": "greenpeace.bg",
+      "to": "www.greenpeace.org/bulgaria"
+    },
+    {
+      "owners": [
+        {
+         "name": "Bojidar Nikolov",
+         "emal": "bojidar.nikolov@greenpeace.org",
+         "unit": "Greenpeace Bulgaria"
+        }
+      ],
+      "from": "www.greenpeace.bg",
+      "to": "www.greenpeace.org/bulgaria"
     }
   ]
 }
