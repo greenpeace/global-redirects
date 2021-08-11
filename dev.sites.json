@@ -10,7 +10,8 @@
       ],
       "from": "dev.redirects.p4.greenpeace.org",
       "to": "www.greenpeace.org"
-    },    {
+    },    
+    {
       "owners": [
         {
          "name": "P4 Administrator",
