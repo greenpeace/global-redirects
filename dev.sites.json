@@ -8,6 +8,17 @@
          "unit": "GPI Operations"
         }
       ],
+      "from": "dev.redirects.p4.greenpeace.org",
+      "to": "www.greenpeace.org"
+    },    
+    {
+      "owners": [
+        {
+         "name": "P4 Administrator",
+         "email": "planet4.ops@greenpeace.org",
+         "unit": "GPI Operations"
+        }
+      ],
       "from": "jencub.club",
       "to": "www-dev.greenpeace.org/jctest"
     },
