@@ -1,9 +1,8 @@
 ---
-apiVersion: networking.k8s.io/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   annotations:
-    kubernetes.io/ingress.class: redirects-nginx
     p4.kubernetes.io/redirect-owners: "{{ .Env.OWNERS }}"
     p4.kubernetes.io/redirect-description: "{{ .Env.DESCRIPTION }}"
     nginx.ingress.kubernetes.io/rewrite-target: "https://{{ .Env.TO }}/$1"
@@ -13,6 +12,7 @@ metadata:
   name: redirects-{{ .Env.NAME }}
   namespace: {{ default .Env.NAMESPACE "default" }}
 spec:
+  ingressClassName: redirects-nginx
   tls:
     - hosts:
         - {{ .Env.FROM }}
@@ -23,5 +23,7 @@ spec:
         paths:
           - path: /(.*)
             backend:
-              serviceName: p4-robots-static
-              servicePort: 80
+              service:
+                name: p4-robots-static
+                port:
+                  number: 80
