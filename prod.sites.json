@@ -476,6 +476,17 @@
       ],
       "from": "www.greenpeace.bg",
       "to": "www.greenpeace.org/bulgaria"
+    },
+    {
+      "owners": [
+        {
+         "name": "Rastislav Prochazka",
+         "emal": "rastislav.prochazka@greenpeace.org ",
+         "unit": "Greenpeace CEE"
+        }
+      ],
+      "from": "cee.press.greenpeace.org",
+      "to": "greenpeace.at/cee-press-hub"
     }
   ]
 }
