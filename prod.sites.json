@@ -245,6 +245,17 @@
     {
       "owners": [
         {
+         "name": "GPI Ops",
+         "emal": "global-it-operation@greenpeace.org",
+         "unit": "GPI Operations"
+        }
+      ],
+      "from": "gp-test.org",
+      "to": "www.gp-test.org"
+    },
+    {
+      "owners": [
+        {
          "name": "Enoch Yim",
          "emal": "enoch.yim@greenpeace.org",
          "unit": "Greenpeace Taiwan"
