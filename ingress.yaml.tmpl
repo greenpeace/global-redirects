@@ -5,8 +5,8 @@ metadata:
   annotations:
     p4.kubernetes.io/redirect-owners: "{{ .Env.OWNERS }}"
     p4.kubernetes.io/redirect-description: "{{ .Env.DESCRIPTION }}"
-    nginx.ingress.kubernetes.io/rewrite-target: "https://{{ .Env.TO }}/$1"
     nginx.ingress.kubernetes.io/permanent-redirect: https://{{ .Env.TO }}/$1
+    nginx.ingress.kubernetes.io/rewrite-target: /
     cert-manager.io/issuer: letsencrypt-prod
   labels:
     app: redirects
