@@ -9,7 +9,18 @@
         }
       ],
       "from": "dev.redirects.p4.greenpeace.org",
-      "to": "www.greenpeace.org"
+      "to": "www-dev.greenpeace.org"
+    },
+    {
+      "owners": [
+        {
+         "name": "P4 Administrator",
+         "email": "planet4.ops@greenpeace.org",
+         "unit": "GPI Operations"
+        }
+      ],
+      "from": "greenpeace.ch",
+      "to": "www-dev.greenpeace.ch"
     }
   ]
 }
