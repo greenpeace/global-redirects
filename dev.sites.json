@@ -20,40 +20,18 @@
         }
       ],
       "from": "greenpeace.ch",
-      "to": "www.greenpeace.ch/de"
+      "to": "greenpeace.org/de"
     },
     {
       "owners": [
         {
-         "name": "P4 Administrator",
-         "email": "planet4.ops@greenpeace.org",
-         "unit": "GPI Operations"
+         "name": "Oscar Keur",
+         "emal": "oscar.keur@greenpeace.org",
+         "unit": "Greenpeace Netherlands"
         }
       ],
       "from": "www.greenpeace.ch",
-      "to": "www.greenpeace.ch/de"
-    },
-    {
-      "owners": [
-        {
-         "name": "P4 Administrator",
-         "email": "planet4.ops@greenpeace.org",
-         "unit": "GPI Operations"
-        }
-      ],
-      "from": "greenpeace.ch",
-      "to": "www.greenpeace.ch"
-    },
-    {
-      "owners": [
-        {
-         "name": "P4 Administrator",
-         "email": "planet4.ops@greenpeace.org",
-         "unit": "GPI Operations"
-        }
-      ],
-      "from": "www.greenpeace.ch",
-      "to": "www.greenpeace.ch"
+      "to": "greenpeace.org/de"
     }
   ]
 }
