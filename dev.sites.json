@@ -20,18 +20,7 @@
         }
       ],
       "from": "greenpeace.ch",
-      "to": "greenpeace.org/de"
-    },
-    {
-      "owners": [
-        {
-         "name": "Oscar Keur",
-         "emal": "oscar.keur@greenpeace.org",
-         "unit": "Greenpeace Netherlands"
-        }
-      ],
-      "from": "www.greenpeace.ch",
-      "to": "greenpeace.org/de"
+      "to": "www.greenpeace.ch"
     }
   ]
 }
