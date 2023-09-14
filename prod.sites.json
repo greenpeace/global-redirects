@@ -502,9 +502,9 @@
     {
       "owners": [
         {
-         "name": "Oscar Keur",
-         "emal": "oscar.keur@greenpeace.org",
-         "unit": "Greenpeace Netherlands"
+          "name": "SRE Team",
+          "emal": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "greenpeace.ch",
@@ -513,9 +513,9 @@
     {
       "owners": [
         {
-         "name": "Oscar Keur",
-         "emal": "oscar.keur@greenpeace.org",
-         "unit": "Greenpeace Netherlands"
+          "name": "SRE Team",
+          "emal": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "www.greenpeace.ch",
