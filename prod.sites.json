@@ -498,6 +498,28 @@
       ],
       "from": "cee.press.greenpeace.org",
       "to": "greenpeace.at/cee-press-hub"
+    },
+    {
+      "owners": [
+        {
+          "name": "SRE Team",
+          "emal": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
+        }
+      ],
+      "from": "greenpeace.ch",
+      "to": "greenpeace.org/ch"
+    },
+    {
+      "owners": [
+        {
+          "name": "SRE Team",
+          "emal": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
+        }
+      ],
+      "from": "www.greenpeace.ch",
+      "to": "greenpeace.org/ch"
     }
   ]
 }
