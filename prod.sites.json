@@ -508,7 +508,7 @@
         }
       ],
       "from": "greenpeace.ch",
-      "to": "greenpeace.org/ch"
+      "to": "greenpeace.org/de"
     },
     {
       "owners": [
@@ -519,7 +519,7 @@
         }
       ],
       "from": "www.greenpeace.ch",
-      "to": "greenpeace.org/ch"
+      "to": "greenpeace.org/de"
     }
   ]
 }
