@@ -231,6 +231,19 @@
       "from": "www.greenpeace.nl",
       "to": "greenpeace.org/nl"
     },
+
+    {
+      "owners": [
+        {
+         "name": "Esther Wien",
+         "emal": "ewien@greenpeace.org",
+         "unit": "Greenpeace Netherlands"
+        }
+      ],
+      "from": "niks.greenpeace.nl",
+      "to": "www.greenpeace.org/nl/acties/niks/"
+    },
+
     {
       "owners": [
         {
