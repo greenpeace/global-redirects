@@ -157,28 +157,6 @@
     {
       "owners": [
         {
-          "name": "Kostantinos Spiliopoulos",
-          "emal": "kostantinos.spiliopoulos@greenpeace.org",
-          "unit": "Greenpeace Greece"
-        }
-      ],
-      "from": "greenpeace.gr",
-      "to": "www.greenpeace.org/greece"
-    },
-    {
-      "owners": [
-        {
-          "name": "Kostantinos Spiliopoulos",
-          "emal": "kostantinos.spiliopoulos@greenpeace.org",
-          "unit": "Greenpeace Greece"
-        }
-      ],
-      "from": "www.greenpeace.gr",
-      "to": "www.greenpeace.org/greece"
-    },
-    {
-      "owners": [
-        {
           "name": "SRE Team",
           "emal": "global-it-sre-group@greenpeace.org",
           "unit": "Global IT"
