@@ -24,3 +24,8 @@ spec:
         paths:
           - path: /(.*)
             pathType: ImplementationSpecific
+            backend:
+              service:
+                name: p4-robots-static
+                port:
+                  number: 80
