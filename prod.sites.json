@@ -3,9 +3,9 @@
     {
       "owners": [
         {
-         "name": "P4 Administrator",
-         "email": "planet4.ops@greenpeace.org",
-         "unit": "Global IT"
+          "name": "P4 Administrator",
+          "email": "planet4.ops@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "redirects.p4.greenpeace.org",
@@ -14,9 +14,9 @@
     {
       "owners": [
         {
-         "name": "Vladimir Douda",
-         "email": "vladimir.douda@greenpeace.org",
-         "unit": "Greenpeace Česká republika"
+          "name": "Vladimir Douda",
+          "email": "vladimir.douda@greenpeace.org",
+          "unit": "Greenpeace Česká republika"
         }
       ],
       "from": "greenpeace.cz",
@@ -25,9 +25,9 @@
     {
       "owners": [
         {
-         "name": "Vladimir Douda",
-         "email": "vladimir.douda@greenpeace.org",
-         "unit": "Greenpeace Česká republika"
+          "name": "Vladimir Douda",
+          "email": "vladimir.douda@greenpeace.org",
+          "unit": "Greenpeace Česká republika"
         }
       ],
       "from": "www.greenpeace.cz",
@@ -36,9 +36,9 @@
     {
       "owners": [
         {
-         "name": "P4 Administrator",
-         "email": "planet4.ops@greenpeace.org",
-         "unit": "Global IT"
+          "name": "P4 Administrator",
+          "email": "planet4.ops@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "prod.jencub.xyz",
@@ -47,9 +47,9 @@
     {
       "owners": [
         {
-         "name": "SRE Team",
-         "email": "global-it-sre-group@greenpeace.org",
-         "unit": "Global IT"
+          "name": "SRE Team",
+          "email": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "greenpeace.lu",
@@ -58,9 +58,9 @@
     {
       "owners": [
         {
-         "name": "SRE Team",
-         "email": "global-it-sre-group@greenpeace.org",
-         "unit": "Global IT"
+          "name": "SRE Team",
+          "email": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "www.greenpeace.lu",
@@ -69,9 +69,9 @@
     {
       "owners": [
         {
-         "name": "Marton Torok",
-         "email": "marton.torok@greenpeace.org",
-         "unit": "Greenpeace Slovakia"
+          "name": "Marton Torok",
+          "email": "marton.torok@greenpeace.org",
+          "unit": "Greenpeace Slovakia"
         }
       ],
       "from": "greenpeace.sk",
@@ -80,9 +80,9 @@
     {
       "owners": [
         {
-         "name": "Marton Torok",
-         "email": "marton.torok@greenpeace.org",
-         "unit": "Greenpeace Slovakia"
+          "name": "Marton Torok",
+          "email": "marton.torok@greenpeace.org",
+          "unit": "Greenpeace Slovakia"
         }
       ],
       "from": "www.greenpeace.sk",
@@ -91,9 +91,9 @@
     {
       "owners": [
         {
-         "name": "SRE Team",
-         "emal": "global-it-sre-group@greenpeace.org",
-         "unit": "Global IT"
+          "name": "SRE Team",
+          "emal": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "greenpeace.com",
@@ -102,9 +102,9 @@
     {
       "owners": [
         {
-         "name": "SRE Team",
-         "emal": "global-it-sre-group@greenpeace.org",
-         "unit": "Global IT"
+          "name": "SRE Team",
+          "emal": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "www.greenpeace.com",
@@ -113,9 +113,9 @@
     {
       "owners": [
         {
-         "name": "SRE Team",
-         "emal": "global-it-sre-group@greenpeace.org",
-         "unit": "Global IT"
+          "name": "SRE Team",
+          "emal": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "greenpeace.net",
@@ -124,9 +124,9 @@
     {
       "owners": [
         {
-         "name": "SRE Team",
-         "emal": "global-it-sre-group@greenpeace.org",
-         "unit": "Global IT"
+          "name": "SRE Team",
+          "emal": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "www.greenpeace.net",
@@ -135,9 +135,9 @@
     {
       "owners": [
         {
-         "name": "John Hyland",
-         "emal": "john.hyland@greenpeace.org",
-         "unit": "Greenpeace EU Unit"
+          "name": "John Hyland",
+          "emal": "john.hyland@greenpeace.org",
+          "unit": "Greenpeace EU Unit"
         }
       ],
       "from": "greenpeace.eu",
@@ -146,9 +146,9 @@
     {
       "owners": [
         {
-         "name": "John Hyland",
-         "emal": "john.hyland@greenpeace.org",
-         "unit": "Greenpeace EU Unit"
+          "name": "John Hyland",
+          "emal": "john.hyland@greenpeace.org",
+          "unit": "Greenpeace EU Unit"
         }
       ],
       "from": "www.greenpeace.eu",
@@ -157,31 +157,9 @@
     {
       "owners": [
         {
-         "name": "Kostantinos Spiliopoulos",
-         "emal": "kostantinos.spiliopoulos@greenpeace.org",
-         "unit": "Greenpeace Greece"
-        }
-      ],
-      "from": "greenpeace.gr",
-      "to": "www.greenpeace.org/greece"
-    },
-    {
-      "owners": [
-        {
-         "name": "Kostantinos Spiliopoulos",
-         "emal": "kostantinos.spiliopoulos@greenpeace.org",
-         "unit": "Greenpeace Greece"
-        }
-      ],
-      "from": "www.greenpeace.gr",
-      "to": "www.greenpeace.org/greece"
-    },
-    {
-      "owners": [
-        {
-         "name": "SRE Team",
-         "emal": "global-it-sre-group@greenpeace.org",
-         "unit": "Global IT"
+          "name": "SRE Team",
+          "emal": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "greenpeace.hr",
@@ -190,9 +168,9 @@
     {
       "owners": [
         {
-         "name": "SRE Team",
-         "emal": "global-it-sre-group@greenpeace.org",
-         "unit": "Global IT"
+          "name": "SRE Team",
+          "emal": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "www.greenpeace.hr",
@@ -201,9 +179,9 @@
     {
       "owners": [
         {
-         "name": "SRE Team",
-         "emal": "global-it-sre-group@greenpeace.org",
-         "unit": "Global IT"
+          "name": "SRE Team",
+          "emal": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "greenpeace.net",
@@ -212,9 +190,9 @@
     {
       "owners": [
         {
-         "name": "Oscar Keur",
-         "emal": "oscar.keur@greenpeace.org",
-         "unit": "Greenpeace Netherlands"
+          "name": "Oscar Keur",
+          "emal": "oscar.keur@greenpeace.org",
+          "unit": "Greenpeace Netherlands"
         }
       ],
       "from": "greenpeace.nl",
@@ -223,33 +201,31 @@
     {
       "owners": [
         {
-         "name": "Oscar Keur",
-         "emal": "oscar.keur@greenpeace.org",
-         "unit": "Greenpeace Netherlands"
+          "name": "Oscar Keur",
+          "emal": "oscar.keur@greenpeace.org",
+          "unit": "Greenpeace Netherlands"
         }
       ],
       "from": "www.greenpeace.nl",
       "to": "greenpeace.org/nl"
     },
-
     {
       "owners": [
         {
-         "name": "Esther Wien",
-         "emal": "ewien@greenpeace.org",
-         "unit": "Greenpeace Netherlands"
+          "name": "Esther Wien",
+          "emal": "ewien@greenpeace.org",
+          "unit": "Greenpeace Netherlands"
         }
       ],
       "from": "niks.greenpeace.nl",
       "to": "www.greenpeace.org/nl/acties/niks/"
     },
-
     {
       "owners": [
         {
-         "name": "SRE Team",
-         "emal": "global-it-sre-group@greenpeace.org",
-         "unit": "Global IT"
+          "name": "SRE Team",
+          "emal": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "greenpeace.org",
@@ -258,9 +234,9 @@
     {
       "owners": [
         {
-         "name": "SRE Team",
-         "emal": "global-it-sre-group@greenpeace.org",
-         "unit": "Global IT"
+          "name": "SRE Team",
+          "emal": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "gp-test.org",
@@ -269,9 +245,9 @@
     {
       "owners": [
         {
-         "name": "Enoch Yim",
-         "emal": "enoch.yim@greenpeace.org",
-         "unit": "Greenpeace Taiwan"
+          "name": "Enoch Yim",
+          "emal": "enoch.yim@greenpeace.org",
+          "unit": "Greenpeace Taiwan"
         }
       ],
       "from": "greenpeace.org.tw",
@@ -280,9 +256,9 @@
     {
       "owners": [
         {
-         "name": "Enoch Yim",
-         "emal": "enoch.yim@greenpeace.org",
-         "unit": "Greenpeace Taiwan"
+          "name": "Enoch Yim",
+          "emal": "enoch.yim@greenpeace.org",
+          "unit": "Greenpeace Taiwan"
         }
       ],
       "from": "www.greenpeace.org.tw",
@@ -291,9 +267,9 @@
     {
       "owners": [
         {
-         "name": "SRE Team",
-         "emal": "global-it-sre-group@greenpeace.org",
-         "unit": "Global IT"
+          "name": "SRE Team",
+          "emal": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "dons.greenpeace.lu",
@@ -302,9 +278,9 @@
     {
       "owners": [
         {
-         "name": "SRE Team",
-         "emal": "global-it-sre-group@greenpeace.org",
-         "unit": "Global IT"
+          "name": "SRE Team",
+          "emal": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "energiebierger.greenpeace.lu",
@@ -313,9 +289,9 @@
     {
       "owners": [
         {
-         "name": "SRE Team",
-         "emal": "global-it-sre-group@greenpeace.org",
-         "unit": "Global IT"
+          "name": "SRE Team",
+          "emal": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "protegeons-locean-antarctique.greenpeace.lu",
@@ -324,9 +300,9 @@
     {
       "owners": [
         {
-         "name": "SRE Team",
-         "emal": "global-it-sre-group@greenpeace.org",
-         "unit": "Global IT"
+          "name": "SRE Team",
+          "emal": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "stopnucleaire.greenpeace.lu",
@@ -335,9 +311,9 @@
     {
       "owners": [
         {
-         "name": "SRE Team",
-         "emal": "global-it-sre-group@greenpeace.org",
-         "unit": "Global IT"
+          "name": "SRE Team",
+          "emal": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "greenpeace.pt",
@@ -346,9 +322,9 @@
     {
       "owners": [
         {
-         "name": "SRE Team",
-         "emal": "global-it-sre-group@greenpeace.org",
-         "unit": "Global IT"
+          "name": "SRE Team",
+          "emal": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
         }
       ],
       "from": "www.greenpeace.pt",
@@ -357,21 +333,20 @@
     {
       "owners": [
         {
-         "name": "Wassim Youssef",
-         "emal": "wyoussef@greenpeace.org",
-         "unit": "Greenpeace MENA"
+          "name": "Wassim Youssef",
+          "emal": "wyoussef@greenpeace.org",
+          "unit": "Greenpeace MENA"
         }
       ],
       "from": "ummah4earth.com",
       "to": "ummah4earth.org"
     },
-
     {
       "owners": [
         {
-         "name": "Wassim Youssef",
-         "emal": "wyoussef@greenpeace.org",
-         "unit": "Greenpeace MENA"
+          "name": "Wassim Youssef",
+          "emal": "wyoussef@greenpeace.org",
+          "unit": "Greenpeace MENA"
         }
       ],
       "from": "www.ummah4earth.com",
@@ -380,21 +355,20 @@
     {
       "owners": [
         {
-         "name": "Wassim Youssef",
-         "emal": "wyoussef@greenpeace.org",
-         "unit": "Greenpeace MENA"
+          "name": "Wassim Youssef",
+          "emal": "wyoussef@greenpeace.org",
+          "unit": "Greenpeace MENA"
         }
       ],
       "from": "ummahforearth.org",
       "to": "ummah4earth.org"
     },
-
     {
       "owners": [
         {
-         "name": "Wassim Youssef",
-         "emal": "wyoussef@greenpeace.org",
-         "unit": "Greenpeace MENA"
+          "name": "Wassim Youssef",
+          "emal": "wyoussef@greenpeace.org",
+          "unit": "Greenpeace MENA"
         }
       ],
       "from": "www.ummahforearth.org",
@@ -403,33 +377,31 @@
     {
       "owners": [
         {
-         "name": "Wassim Youssef",
-         "emal": "wyoussef@greenpeace.org",
-         "unit": "Greenpeace MENA"
+          "name": "Wassim Youssef",
+          "emal": "wyoussef@greenpeace.org",
+          "unit": "Greenpeace MENA"
         }
       ],
       "from": "ummahforearth.com",
       "to": "ummah4earth.org"
     },
-
     {
       "owners": [
         {
-         "name": "Wassim Youssef",
-         "emal": "wyoussef@greenpeace.org",
-         "unit": "Greenpeace MENA"
+          "name": "Wassim Youssef",
+          "emal": "wyoussef@greenpeace.org",
+          "unit": "Greenpeace MENA"
         }
       ],
       "from": "www.ummahforearth.com",
       "to": "ummah4earth.org"
     },
-
     {
       "owners": [
         {
-         "name": "Davin Hutchins",
-         "emal": "davin.hutchins@greenpeace.org",
-         "unit": "GPI"
+          "name": "Davin Hutchins",
+          "emal": "davin.hutchins@greenpeace.org",
+          "unit": "GPI"
         }
       ],
       "from": "lessismore.greenpeace.org",
@@ -438,9 +410,9 @@
     {
       "owners": [
         {
-         "name": "Matjaž Dovečar",
-         "emal": "matjaz.dovecar@greenpeace.org",
-         "unit": "Greenpeace Slovenia"
+          "name": "Matjaž Dovečar",
+          "emal": "matjaz.dovecar@greenpeace.org",
+          "unit": "Greenpeace Slovenia"
         }
       ],
       "from": "greenpeace.si",
@@ -449,9 +421,9 @@
     {
       "owners": [
         {
-         "name": "Matjaž Dovečar",
-         "emal": "matjaz.dovecar@greenpeace.org",
-         "unit": "Greenpeace Slovenia"
+          "name": "Matjaž Dovečar",
+          "emal": "matjaz.dovecar@greenpeace.org",
+          "unit": "Greenpeace Slovenia"
         }
       ],
       "from": "www.greenpeace.si",
@@ -460,9 +432,9 @@
     {
       "owners": [
         {
-         "name": "Alexandru Opriţa",
-         "emal": "alexandru.oprita@greenpeace.org",
-         "unit": "Greenpeace Romania"
+          "name": "Alexandru Opriţa",
+          "emal": "alexandru.oprita@greenpeace.org",
+          "unit": "Greenpeace Romania"
         }
       ],
       "from": "greenpeace.ro",
@@ -471,9 +443,9 @@
     {
       "owners": [
         {
-         "name": "Alexandru Opriţa",
-         "emal": "alexandru.oprita@greenpeace.org",
-         "unit": "Greenpeace Romania"
+          "name": "Alexandru Opriţa",
+          "emal": "alexandru.oprita@greenpeace.org",
+          "unit": "Greenpeace Romania"
         }
       ],
       "from": "www.greenpeace.ro",
@@ -482,9 +454,9 @@
     {
       "owners": [
         {
-         "name": "Bojidar Nikolov",
-         "emal": "bojidar.nikolov@greenpeace.org",
-         "unit": "Greenpeace Bulgaria"
+          "name": "Bojidar Nikolov",
+          "emal": "bojidar.nikolov@greenpeace.org",
+          "unit": "Greenpeace Bulgaria"
         }
       ],
       "from": "greenpeace.bg",
@@ -493,9 +465,9 @@
     {
       "owners": [
         {
-         "name": "Bojidar Nikolov",
-         "emal": "bojidar.nikolov@greenpeace.org",
-         "unit": "Greenpeace Bulgaria"
+          "name": "Bojidar Nikolov",
+          "emal": "bojidar.nikolov@greenpeace.org",
+          "unit": "Greenpeace Bulgaria"
         }
       ],
       "from": "www.greenpeace.bg",
@@ -504,35 +476,13 @@
     {
       "owners": [
         {
-         "name": "Rastislav Prochazka",
-         "emal": "rastislav.prochazka@greenpeace.org ",
-         "unit": "Greenpeace CEE"
+          "name": "Rastislav Prochazka",
+          "emal": "rastislav.prochazka@greenpeace.org ",
+          "unit": "Greenpeace CEE"
         }
       ],
       "from": "cee.press.greenpeace.org",
       "to": "greenpeace.at/cee-press-hub"
-    },
-    {
-      "owners": [
-        {
-          "name": "SRE Team",
-          "emal": "global-it-sre-group@greenpeace.org",
-          "unit": "Global IT"
-        }
-      ],
-      "from": "greenpeace.ch",
-      "to": "greenpeace.org/de"
-    },
-    {
-      "owners": [
-        {
-          "name": "SRE Team",
-          "emal": "global-it-sre-group@greenpeace.org",
-          "unit": "Global IT"
-        }
-      ],
-      "from": "www.greenpeace.ch",
-      "to": "greenpeace.org/de"
     }
   ]
 }
