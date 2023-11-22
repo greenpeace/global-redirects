@@ -477,12 +477,23 @@
       "owners": [
         {
           "name": "Rastislav Prochazka",
-          "emal": "rastislav.prochazka@greenpeace.org ",
+          "emal": "rastislav.prochazka@greenpeace.org",
           "unit": "Greenpeace CEE"
         }
       ],
       "from": "cee.press.greenpeace.org",
       "to": "greenpeace.at/cee-press-hub"
+    },
+    {
+      "owners": [
+        {
+          "name": "Akshey Kalra - See ticket 179767",
+          "emal": "akshey@c6digital.io",
+          "unit": "Greenpeace SEA"
+        }
+      ],
+      "from": "museumofclimatejustice.org",
+      "to": "www.museumofclimatejustice.org"
     }
   ]
 }
