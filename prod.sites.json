@@ -223,6 +223,17 @@
     {
       "owners": [
         {
+          "name": "Esther Wien",
+          "emal": "ewien@greenpeace.org",
+          "unit": "Greenpeace Netherlands"
+        }
+      ],
+      "from": "forest.greenpeace.nl",
+      "to": "greenpeace.org/nl/acties/doneren/"
+    },
+    {
+      "owners": [
+        {
           "name": "SRE Team",
           "emal": "global-it-sre-group@greenpeace.org",
           "unit": "Global IT"
