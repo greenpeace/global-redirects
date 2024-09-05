@@ -505,6 +505,28 @@
       ],
       "from": "museumofclimatejustice.org",
       "to": "www.museumofclimatejustice.org"
+    },
+    {
+      "owners": [
+        {
+          "name": "Marton Torok",
+          "email": "marton.torok@greenpeace.org",
+          "unit": "Greenpeace Ukraine"
+        }
+      ],
+      "from": "greenpeace.ua",
+      "to": "www.greenpeace.org/ukraine"
+    },
+    {
+      "owners": [
+        {
+          "name": "Marton Torok",
+          "email": "marton.torok@greenpeace.org",
+          "unit": "Greenpeace Ukraine"
+        }
+      ],
+      "from": "www.greenpeace.ua",
+      "to": "www.greenpeace.org/ukraine"
     }
   ]
 }
