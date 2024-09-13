@@ -527,17 +527,6 @@
       ],
       "from": "www.greenpeace.ua",
       "to": "www.greenpeace.org/ukraine"
-    },
-    {
-      "owners": [
-        {
-          "name": "Ayberk Göktepe - See ticket 237637",
-          "email": "ayberk.goktepe@greenpeace.org",
-          "unit": "Greenpeace Africa"
-        }
-      ],
-      "from": "africadonate.greenpeace.org",
-      "to": "greenpeaceafrica.donorsupport.co/page/general-campaign"
     }
   ]
 }
