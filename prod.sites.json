@@ -36,17 +36,6 @@
     {
       "owners": [
         {
-          "name": "P4 Administrator",
-          "email": "planet4.ops@greenpeace.org",
-          "unit": "Global IT"
-        }
-      ],
-      "from": "prod.jencub.xyz",
-      "to": "k8s.p4.greenpeace.org/jctest"
-    },
-    {
-      "owners": [
-        {
           "name": "SRE Team",
           "email": "global-it-sre-group@greenpeace.org",
           "unit": "Global IT"
@@ -318,28 +307,6 @@
       ],
       "from": "stopnucleaire.greenpeace.lu",
       "to": "www.greenpeace.org/luxembourg/fr/agir/exigeons-la-fin-du-nucleaire"
-    },
-    {
-      "owners": [
-        {
-          "name": "SRE Team",
-          "email": "global-it-sre-group@greenpeace.org",
-          "unit": "Global IT"
-        }
-      ],
-      "from": "greenpeace.pt",
-      "to": "www.greenpeace.org/portugal"
-    },
-    {
-      "owners": [
-        {
-          "name": "SRE Team",
-          "email": "global-it-sre-group@greenpeace.org",
-          "unit": "Global IT"
-        }
-      ],
-      "from": "www.greenpeace.pt",
-      "to": "www.greenpeace.org/portugal"
     },
     {
       "owners": [
