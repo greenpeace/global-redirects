@@ -494,6 +494,28 @@
       ],
       "from": "www.greenpeace.ua",
       "to": "www.greenpeace.org/ukraine"
-    }
+    },
+    {
+      "owners": [
+        {
+          "name": "Kelli Tolen",
+          "email": "kelli.tolen@greenpeace.org",
+          "unit": "Greenpeace International"
+        }
+      ],
+      "from": "www.banfossilads.org",
+      "to": "banfossilfuelads.org"
+    },
+    {
+      "owners": [
+        {
+          "name": "Kelli Tolen",
+          "email": "kelli.tolen@greenpeace.org",
+          "unit": "Greenpeace International"
+        }
+      ],
+      "from": "banfossilads.org",
+      "to": "banfossilfuelads.org"
+    },
   ]
 }
