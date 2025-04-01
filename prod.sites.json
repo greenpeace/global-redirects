@@ -245,28 +245,6 @@
     {
       "owners": [
         {
-          "name": "Enoch Yim",
-          "email": "enoch.yim@greenpeace.org",
-          "unit": "Greenpeace Taiwan"
-        }
-      ],
-      "from": "greenpeace.org.tw",
-      "to": "www.greenpeace.org/taiwan"
-    },
-    {
-      "owners": [
-        {
-          "name": "Enoch Yim",
-          "email": "enoch.yim@greenpeace.org",
-          "unit": "Greenpeace Taiwan"
-        }
-      ],
-      "from": "www.greenpeace.org.tw",
-      "to": "www.greenpeace.org/taiwan"
-    },
-    {
-      "owners": [
-        {
           "name": "SRE Team",
           "email": "global-it-sre-group@greenpeace.org",
           "unit": "Global IT"
