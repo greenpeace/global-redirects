@@ -223,6 +223,17 @@
     {
       "owners": [
         {
+          "name": "Shewanie Tewarie",
+          "email": "shewanie.tewarie@greenpeace.org",
+          "unit": "Greenpeace Netherlands"
+        }
+      ],
+      "from": "greenact.greenpeace.nl",
+      "to": "www.greenpeace.org/nl/kom-in-actie/word-activist"
+    },
+    {
+      "owners": [
+        {
           "name": "SRE Team",
           "email": "global-it-sre-group@greenpeace.org",
           "unit": "Global IT"
