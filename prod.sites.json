@@ -36,28 +36,6 @@
     {
       "owners": [
         {
-          "name": "SRE Team",
-          "email": "global-it-sre-group@greenpeace.org",
-          "unit": "Global IT"
-        }
-      ],
-      "from": "greenpeace.lu",
-      "to": "www.greenpeace.org/luxembourg/fr"
-    },
-    {
-      "owners": [
-        {
-          "name": "SRE Team",
-          "email": "global-it-sre-group@greenpeace.org",
-          "unit": "Global IT"
-        }
-      ],
-      "from": "www.greenpeace.lu",
-      "to": "www.greenpeace.org/luxembourg/fr"
-    },
-    {
-      "owners": [
-        {
           "name": "Marton Torok",
           "email": "marton.torok@greenpeace.org",
           "unit": "Greenpeace Slovakia"
