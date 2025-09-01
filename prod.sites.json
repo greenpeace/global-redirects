@@ -245,39 +245,6 @@
     {
       "owners": [
         {
-          "name": "SRE Team",
-          "email": "global-it-sre-group@greenpeace.org",
-          "unit": "Global IT"
-        }
-      ],
-      "from": "energiebierger.greenpeace.lu",
-      "to": "www.greenpeace.org/luxembourg/fr/agir/citoyens-de-lenergie-solaire"
-    },
-    {
-      "owners": [
-        {
-          "name": "SRE Team",
-          "email": "global-it-sre-group@greenpeace.org",
-          "unit": "Global IT"
-        }
-      ],
-      "from": "protegeons-locean-antarctique.greenpeace.lu",
-      "to": "act.greenpeace.org/page/18261/petition/1"
-    },
-    {
-      "owners": [
-        {
-          "name": "SRE Team",
-          "email": "global-it-sre-group@greenpeace.org",
-          "unit": "Global IT"
-        }
-      ],
-      "from": "stopnucleaire.greenpeace.lu",
-      "to": "www.greenpeace.org/luxembourg/fr/agir/exigeons-la-fin-du-nucleaire"
-    },
-    {
-      "owners": [
-        {
           "name": "Wassim Youssef",
           "email": "wyoussef@greenpeace.org",
           "unit": "Greenpeace MENA"
