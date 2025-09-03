@@ -234,17 +234,6 @@
     {
       "owners": [
         {
-          "name": "SRE Team",
-          "email": "global-it-sre-group@greenpeace.org",
-          "unit": "Global IT"
-        }
-      ],
-      "from": "dons.greenpeace.lu",
-      "to": "faire-un-don.greenpeace.lu/fr"
-    },
-    {
-      "owners": [
-        {
           "name": "Wassim Youssef",
           "email": "wyoussef@greenpeace.org",
           "unit": "Greenpeace MENA"
