@@ -18,13 +18,6 @@ jobs:
     steps:
       - checkout
       - run: make lint | tee /tmp/lint.log
-      - run:
-          name: Notify failure
-          when: on_fail
-          command: |
-            TYPE="Test" \
-            EXTRA_TEXT="\`\`\`$(cat /tmp/lint.log)\`\`\`" \
-            notify-job-failure.sh
 
   devprep:
     <<: *defaults
@@ -34,13 +27,6 @@ jobs:
       - run: make devprep | tee /tmp/artifacts/job.log
       - store_artifacts:
           path: /tmp/artifacts
-      - run:
-          name: Notify failure
-          when: on_fail
-          command: |
-            TYPE="Lint" \
-            EXTRA_TEXT="\`\`\`$(cat /tmp/job.log)\`\`\`" \
-            notify-job-failure.sh
 
   prodprep:
     <<: *defaults
@@ -50,13 +36,6 @@ jobs:
       - run: make prodprep | tee /tmp/artifacts/job.log
       - store_artifacts:
           path: /tmp/artifacts
-      - run:
-          name: Notify failure
-          when: on_fail
-          command: |
-            TYPE="Lint" \
-            EXTRA_TEXT="\`\`\`$(cat /tmp/job.log)\`\`\`" \
-            notify-job-failure.sh
 
   dev:
     <<: *defaults
@@ -72,17 +51,6 @@ jobs:
       - run: cp -R ingress /tmp/artifacts
       - store_artifacts:
           path: /tmp/artifacts
-      - run:
-          name: Notify failure
-          when: on_fail
-          command: |
-            TYPE="Deploy" \
-            EXTRA_TEXT="\`\`\`$(cat /tmp/artifacts/job.log)\`\`\`" \
-            notify-job-failure.sh
-      - run: |
-          TYPE="Deploy" \
-          EXTRA_TEXT="\`\`\`$(cat /tmp/artifacts/job.log)\`\`\`"  \
-          notify-job-success.sh
 
   prod:
     <<: *defaults
@@ -98,17 +66,6 @@ jobs:
       - run: cp -R ingress /tmp/artifacts
       - store_artifacts:
           path: /tmp/artifacts
-      - run:
-          name: Notify failure
-          when: on_fail
-          command: |
-            TYPE="Test" \
-            EXTRA_TEXT="\`\`\`$(cat /tmp/artifacts/job.log)\`\`\`" \
-            notify-job-failure.sh
-      - run: |
-          TYPE="Deploy" \
-          EXTRA_TEXT="\`\`\`$(cat /tmp/artifacts/job.log)\`\`\`"  \
-          notify-job-success.sh
 
 workflows:
   version: 2
