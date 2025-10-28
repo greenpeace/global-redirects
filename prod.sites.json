@@ -395,6 +395,39 @@
       ],
       "from": "banfossilads.org",
       "to": "banfossilfuelads.org"
+    },
+    {
+      "owners": [
+        {
+          "name": "Up Chen",
+          "email": "uchen@greenpeace.org",
+          "unit": "Greenpeace EA"
+        }
+      ],
+      "from": "cloud.greenhk.greenpeace.org",
+      "to": "www.greenpeace.org.hk/donation-general"
+    },
+    {
+      "owners": [
+        {
+          "name": "Up Chen",
+          "email": "uchen@greenpeace.org",
+          "unit": "Greenpeace EA"
+        }
+      ],
+      "from": "cloud.greentw.greenpeace.org",
+      "to": "www.greenpeace.org.tw/donation-general-general"
+    },
+    {
+      "owners": [
+        {
+          "name": "Up Chen",
+          "email": "uchen@greenpeace.org",
+          "unit": "Greenpeace EA"
+        }
+      ],
+      "from": "cloud.greensk.greenpeace.org",
+      "to": "www.greenpeace.org/korea"
     }
   ]
 }
