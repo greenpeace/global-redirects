@@ -212,17 +212,6 @@
     {
       "owners": [
         {
-          "name": "Davin Hutchins",
-          "email": "davin.hutchins@greenpeace.org",
-          "unit": "GPI"
-        }
-      ],
-      "from": "lessismore.greenpeace.org",
-      "to": "wayback.archive-it.org/9650/20200923222836/https://lessismore.greenpeace.org"
-    },
-    {
-      "owners": [
-        {
           "name": "Rastislav Prochazka",
           "email": "rastislav.prochazka@greenpeace.org",
           "unit": "Greenpeace CEE"
@@ -263,39 +252,6 @@
       ],
       "from": "banfossilads.org",
       "to": "banfossilfuelads.org"
-    },
-    {
-      "owners": [
-        {
-          "name": "Up Chen",
-          "email": "uchen@greenpeace.org",
-          "unit": "Greenpeace EA"
-        }
-      ],
-      "from": "cloud.greenhk.greenpeace.org",
-      "to": "www.greenpeace.org.hk/donation-general"
-    },
-    {
-      "owners": [
-        {
-          "name": "Up Chen",
-          "email": "uchen@greenpeace.org",
-          "unit": "Greenpeace EA"
-        }
-      ],
-      "from": "cloud.greentw.greenpeace.org",
-      "to": "www.greenpeace.org.tw/donation-general-general"
-    },
-    {
-      "owners": [
-        {
-          "name": "Up Chen",
-          "email": "uchen@greenpeace.org",
-          "unit": "Greenpeace EA"
-        }
-      ],
-      "from": "cloud.greensk.greenpeace.org",
-      "to": "www.greenpeace.org/korea"
     }
   ]
 }
