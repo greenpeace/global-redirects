@@ -63,6 +63,28 @@
           "unit": "Global IT"
         }
       ],
+      "from": "greenpeace.nu",
+      "to": "www.greenpeace.org"
+    },
+    {
+      "owners": [
+        {
+          "name": "SRE Team",
+          "email": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
+        }
+      ],
+      "from": "www.greenpeace.nu",
+      "to": "www.greenpeace.org"
+    },
+    {
+      "owners": [
+        {
+          "name": "SRE Team",
+          "email": "global-it-sre-group@greenpeace.org",
+          "unit": "Global IT"
+        }
+      ],
       "from": "greenpeace.net",
       "to": "www.greenpeace.org"
     },
