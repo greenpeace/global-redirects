@@ -274,6 +274,28 @@
       ],
       "from": "banfossilads.org",
       "to": "banfossilfuelads.org"
+    },
+    {
+      "owners": [
+        {
+          "name": "Kelli Tolen",
+          "email": "kelli.tolen@greenpeace.org",
+          "unit": "Greenpeace International"
+        }
+      ],
+      "from": "timetoresist.org",
+      "to": "www.timetoresist.org"
+    },
+    {
+      "owners": [
+        {
+          "name": "Kelli Tolen",
+          "email": "kelli.tolen@greenpeace.org",
+          "unit": "Greenpeace International"
+        }
+      ],
+      "from": "www.timetoresist.org",
+      "to": "www.greenpeace.org/time-to-resist"
     }
   ]
 }
